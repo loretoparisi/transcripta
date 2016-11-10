@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="transcripa.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+            <section name="ipa.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <connectionStrings />
+    <userSettings>
+        <transcripa.Properties.Settings>
+            <setting name="CurrentLanguage" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="CurrentInput" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="CurrentRomanizationIndex" serializeAs="String">
+                <value>-1</value>
+            </setting>
+            <setting name="HideErrors" serializeAs="String">
+                <value>False</value>
+            </setting>
+        </transcripa.Properties.Settings>
+        <ipa.Properties.Settings>
+            <setting name="CurrentLanguage" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="CurrentInput" serializeAs="String">
+                <value />
+            </setting>
+        </ipa.Properties.Settings>
+    </userSettings>
+</configuration>

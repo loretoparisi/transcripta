@@ -1,0 +1,2802 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Languages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Languages.xsd">
+  <Language Name="None" ISO="  " Native="None">
+    <IPA />
+  </Language>
+  <Language Name="English" ISO="en" Native="English">
+    <IPA>
+      <!-- Special cases -->
+      <Transcription Original="any" Replacement="ɛniː" Prefix="\s" />
+      <Transcription Original="as" Replacement="æz" Prefix="\s" Suffix="\B" />
+      <Transcription Original="a" Replacement="ə" Prefix="\s" Suffix="\B" />
+      <Transcription Original="because" Replacement="bəkʌz" Prefix="\s" Suffix="\B" />
+      <Transcription Original="come" Replacement="kʌm" Prefix="\s" Suffix="\B" />
+      <Transcription Original="do" Replacement="duː" Prefix="\s" Suffix="\B" />
+      <Transcription Original="from" Replacement="frʌm" Prefix="\s" Suffix="\B" />
+      <Transcription Original="every" Replacement="ɛvriː" Prefix="\s" />
+      <Transcription Original="eign" Replacement="ən" Suffix="\B" />
+      <Transcription Original="ed" Replacement="əd" Prefix="[aeiou]+[^aeiou]+" Suffix="\B" />
+      <Transcription Original="e" Replacement="iː" Prefix="\s(?:b|s?h|m|w)" Suffix="\B" />
+      <Transcription Original="have" Replacement="hæv" Prefix="\s" Suffix="\B" />
+      <Transcription Original="is" Replacement="ɪz" Prefix="\s[ht]?" Suffix="\B" />
+      <Transcription Original="i" Replacement="aɪ" Prefix="\s" Suffix="\B" />
+      <Transcription Original="le" Replacement="əl" Prefix="[bcdfghjklmnpqrstvwxz]" Suffix="\B" />
+      <Transcription Original="ly" Replacement="liː" Suffix="\B" />
+      <Transcription Original="of" Replacement="ʌv" Prefix="\s" Suffix="\B" />
+      <Transcription Original="one" Replacement="wʌn" Prefix="\s(?:any|every|no|some)?" Suffix="\B" />
+      <Transcription Original="on't" Replacement="oʊnt" Suffix="\B" />
+      <Transcription Original="[ao]ugh" Replacement="ɒ" Suffix="t" />
+      <Transcription Original="ough" Replacement="oʊ" Prefix="d|th" />
+      <Transcription Original="ough" Replacement="aʊ" Prefix="b" />
+      <Transcription Original="ough" Replacement="ɒf" Prefix="c|tr" />
+      <Transcription Original="ough" Replacement="ʌf" />
+      <Transcription Original="ouldn't" Replacement="ʊdənt" Suffix="\B" />
+      <Transcription Original="ould" Replacement="ʊd" Suffix="\B" />
+      <Transcription Original="sn't" Replacement="zənt" Suffix="\B" />
+      <Transcription Original="some" Replacement="sʌm" Prefix="\s" />
+      <Transcription Original="there" Replacement="ðɛər" Prefix="\B" />
+      <Transcription Original="the" Replacement="ðə" Prefix="\s" Suffix="\B" />
+      <Transcription Original="two" Replacement="tuː" Prefix="\s" Suffix="\B" />
+      <Transcription Original="to" Replacement="tə" Prefix="\s" Suffix="\B" />
+      <Transcription Original="what" Replacement="wʌt" Prefix="\s" />
+      <Transcription Original="where" Replacement="wɛər" Prefix="\s" />
+      <Transcription Original="who" Replacement="huː" Prefix="\s" />
+      <Transcription Original="you" Replacement="juː" Prefix="\s" Suffix="\B" />
+      <!-- Vowels followed by r -->
+      <Transcription Original="er" Replacement="ər" Suffix="[^aeiouy]" />
+      <Transcription Original="ire" Replacement="aɪər" />
+      <Transcription Original="ire" Replacement="aɪər" />
+      <Transcription Original="or" Replacement="ɒr" />
+      <!-- Vowels -->
+      <Transcription Original="a[iy]" Replacement="eɪ" />
+      <Transcription Original="a" Replacement="eɪ" Suffix="[bcdfghjklmnpqrstvwxz]e" />
+      <Transcription Original="a" Replacement="æ" Prefix="\s[bcdfghjklmnpqrstvwxyz]*" Suffix="[bcdfghjklmnpqrstvwxz]+\b" />
+      <Transcription Original="a" Replacement="a" />
+      <Transcription Original="ew|oo" Replacement="uː" />
+      <Transcription Original="e[ae]" Replacement="iː" />
+      <Transcription Original="e[iy]" Replacement="eɪ" />
+      <Transcription Original="e" Replacement="iː" Suffix="[bcdfghjklmnpqrstvwxz]e" />
+      <Transcription Original="e" Replacement="ɛ" Prefix="\s[bcdfghjklmnpqrstvwxyz]*" Suffix="[bcdfghjklmnpqrstvwxz]+\b" />
+      <Transcription Original="e" Replacement="" Prefix="[bcdfghjklmnpqrstvwxz]" Suffix="\B" />
+      <Transcription Original="e" Replacement="e" />
+      <Transcription Original="igh" Replacement="aɪ" />
+      <Transcription Original="i" Replacement="aɪ" Suffix="[bcdfghjklmnpqrstvwxz]e" />
+      <Transcription Original="i" Replacement="ɪ" Prefix="\s[bcdfghjklmnpqrstvwxyz]*" Suffix="[bcdfghjklmnpqrstvwxz]+\b" />
+      <Transcription Original="i" Replacement="ɪ" Suffix="(?:ck|ll|sh)" />
+      <Transcription Original="i" Replacement="i" />
+      <Transcription Original="o[iy]" Replacement="ɔɪ" />
+      <Transcription Original="o[uw]" Replacement="aʊ" />
+      <Transcription Original="o" Replacement="oʊ" Suffix="[bcdfghjklmnpqrstvwxz]e" />
+      <Transcription Original="o" Replacement="ɒ" Prefix="\s[bcdfghjklmnpqrstvwxyz]*" Suffix="[bcdfghjklmnpqrstvwxz]+\b" />
+      <Transcription Original="o" Replacement="oʊ" />
+      <Transcription Original="u" Replacement="uː" Suffix="[bcdfghjklmnpqrstvwxz]e" />
+      <Transcription Original="u" Replacement="ʌ" Prefix="\s[bcdfghjklmnpqrstvwxyz]*" Suffix="[bcdfghjklmnpqrstvwxz]+\b" />
+      <Transcription Original="ue?" Replacement="u" />
+      <Transcription Original="y" Replacement="aɪ" Prefix="[bcdfghjklmnpqrstvwxz]" />
+      <Transcription Original="y" Replacement="aɪ" Suffix="\s" />
+      <!-- Consonants -->
+      <Transcription Original="bb?" Replacement="b" />
+      <Transcription Original="t?ch" Replacement="tʃ" />
+      <Transcription Original="s?c" Replacement="s" Suffix="[eiy]" />
+      <Transcription Original="c[ck]?" Replacement="k" />
+      <Transcription Original="dg" Replacement="dʒ" />
+      <Transcription Original="dd?" Replacement="d" />
+      <Transcription Original="ff?" Replacement="f" />
+      <Transcription Original="gg?" Replacement="g" />
+      <Transcription Original="h" Replacement="h" />
+      <Transcription Original="j" Replacement="dʒ" />
+      <Transcription Original="kn" Replacement="n" />
+      <Transcription Original="kk?" Replacement="k" />
+      <Transcription Original="ll?" Replacement="l" />
+      <Transcription Original="mm?" Replacement="m" />
+      <Transcription Original="ng" Replacement="ŋg" Suffix="[aeiou]" />
+      <Transcription Original="ng" Replacement="ŋ" />
+      <Transcription Original="n" Replacement="ŋ" Suffix="k" />
+      <Transcription Original="nn?" Replacement="n" />
+      <Transcription Original="pp?" Replacement="p" />
+      <Transcription Original="qu" Replacement="kw" />
+      <Transcription Original="q" Replacement="k" />
+      <Transcription Original="w?r" Replacement="r" />
+      <Transcription Original="stion" Replacement="stʃən" />
+      <Transcription Original="(?:ss?|t)ion" Replacement="ʃən" />
+      <Transcription Original="sh" Replacement="ʃ" />
+      <Transcription Original="ss?" Replacement="s" />
+      <Transcription Original="th" Replacement="θ" Suffix="\B" />
+      <Transcription Original="th" Replacement="ð" />
+      <Transcription Original="tt?" Replacement="t" />
+      <Transcription Original="v" Replacement="v" />
+      <Transcription Original="wh?" Replacement="w" />
+      <Transcription Original="x" Replacement="ks" />
+      <Transcription Original="y" Replacement="j" />
+      <Transcription Original="zz?" Replacement="z" />
+    </IPA>
+  </Language>
+  <Language Name="French" ISO="fr" Native="Français">
+    <IPA>
+      <!-- Liaison -->
+      <Transcription Original="[ae]n" Replacement="ɑn‿ " Prefix="[^i]" Suffix="[\s\-]h?(?:[aàâæéèêëiîïôœuùûüyÿ]|e(?!t\s)|o(?!u\s))" />
+      <Transcription Original="(?:ai|ei|i|ie)n" Replacement="ɛn‿ " Suffix="[\s\-]h?(?:[aàâæéèêëiîïôœuùûüyÿ]|e(?!t\s)|o(?!u\s))" />
+      <Transcription Original="on" Replacement="ɔ̃n‿ " Prefix="\s[mst]?" Suffix="[\s\-]h?(?:[aàâæéèêëiîïôœuùûüyÿ]|e(?!t\s)|o(?!u\s))" />
+      <Transcription Original="on" Replacement="ɔn‿ " Suffix="[\s\-]h?(?:[aàâæéèêëiîïôœuùûüyÿ]|e(?!t\s)|o(?!u\s))" />
+      <Transcription Original="un" Replacement="œ̃n‿ " Prefix="\s(?:auc)?" Suffix="[\s\-]h?(?:[aàâæéèêëiîïôœuùûüyÿ]|e(?!t\s)|o(?!u\s))" />
+      <Transcription Original="un" Replacement="œn‿ " Suffix="[\s\-]h?(?:[aàâæéèêëiîïôœuùûüyÿ]|e(?!t\s)|o(?!u\s))" />
+      <Transcription Original="n" Replacement="n‿ " Suffix="[\s\-]h?(?:[aàâæéèêëiîïôœuùûüyÿ]|e(?!t\s)|o(?!u\s))" />
+      <Transcription Original="m" Replacement="m‿ " Suffix="[\s\-]h?[aàâæeéèêëiîïoôœuùûüyÿ]" />
+      <Transcription Original="d" Replacement="t‿ " Suffix="[\s\-]h?[aàâæeéèêëiîïoôœuùûüyÿ]" />
+      <Transcription Original="l" Replacement="j‿ " Suffix="[\s\-]h?[aàâæeéèêëiîïoôœuùûüyÿ]" />
+      <Transcription Original="p" Replacement="p‿ " Prefix="\s(?:tro|beaucou)" Suffix="[\s\-]h?[aàâæeéèêëiîïoôœuùûüyÿ]" />
+      <Transcription Original="er" Replacement="ɛʁ‿ " Suffix="[\s\-]h?[aàâæeéèêëiîïoôœuùûüyÿ]" />
+      <Transcription Original="r" Replacement="" Prefix="e" Suffix="[\s\-](?:[^aàâæeéèêëhiîïoôœuùûüyÿ]|$)|[\.]" />
+      <Transcription Original="ss" Replacement="s" />
+      <Transcription Original="t" Replacement="t‿ " Prefix="[^e]|\Se" Suffix="[\s\-]h?[aàâæeéèêëiîïoôœuùûüyÿ]" />
+      <Transcription Original="x" Replacement="s" Prefix="\s(?:[ds]i|deu)" Suffix="[\s\-]" />
+      <Transcription Original="[sxz]" Replacement="z‿ " Suffix="[\s\-]h?[aàâæeéèêëiîïoôœuùûüyÿ]" />
+      <Transcription Original="long" Replacement="lɔ̃ɡ‿ " Suffix="[\s\-]h?[aàâæeéèêëiîïoôœuùûüyÿ]" />
+      <Transcription Original="[dgpstxz]" Replacement="" Suffix="[^aàâæeéèêëiîïoôœuùûüyÿ]*[\s\-]" />
+      <!-- Nasalized vowels -->
+      <Transcription Original="[ae][nm]" Replacement="ɑ̃" Prefix="[^i]" Suffix="(?!\s?[aàâæeéèêëiîïoôœuùûüyÿ]|[nm])" />
+      <Transcription Original="(?:ai|ei|i|ie)[nm]" Replacement="ɛ̃" Suffix="(?!\s?[aàâæeéèêëiîïoôœuùûüyÿ]|[nm])" />
+      <Transcription Original="u[nm]" Replacement="œ̃" Suffix="(?!\s?[aàâæeéèêëiîïoôœuùûüyÿ]|[nm])" />
+      <Transcription Original="o[nm]" Replacement="ɔ̃" Suffix="(?!\s?[aàâæeéèêëiîïoôœuùûüyÿ]|[nm])" />
+      <!-- Vowels -->
+      <Transcription Original="ai" Replacement="e" Suffix="\B" />
+      <Transcription Original="ai" Replacement="ɑ" Suffix="ll" />
+      <Transcription Original="ai|è" Replacement="ɛ" />
+      <Transcription Original="aî|ê" Replacement="ɛː" />
+      <Transcription Original="au" Replacement="o" />
+      <Transcription Original="a" Replacement="ɑ" Suffix="s[aàâæeéèêëiîïoôœuùûüyÿ\s]|z" />
+      <Transcription Original="â" Replacement="ɑ" />
+      <Transcription Original="[aà]" Replacement="a" />
+      <Transcription Original="eau|ô" Replacement="o" />
+      <Transcription Original="eu" Replacement="ø" Suffix="x\b" />
+      <Transcription Original="eu" Replacement="ø" Prefix="[bcçdfghjklmnpqrstvwxyz]" Suffix="[bcçdfghjklmnpqrstvwxyz](?:[bcçdfghjklmnpqrstvwxyz]|e\s)" />
+      <Transcription Original="eu|œu" Replacement="œ" />
+      <Transcription Original="eû" Replacement="ø" />
+      <Transcription Original="e" Replacement="ə" Prefix="\s(?:[cdjlmnt]|qu)" Suffix="[\s\-]" />
+      <Transcription Original="e" Replacement="" Prefix="(?:[gq]u|[^aàâæeéèêëiîïoôœuùûüyÿ])" Suffix="[\s\-]" />
+      <Transcription Original="ée?|e" Replacement="e" />
+      <Transcription Original="i" Replacement="j" Suffix="[eéèêë]" />
+      <Transcription Original="i" Replacement="j" Prefix="[st]" Suffix="o" />
+      <Transcription Original="[iîï]" Replacement="i" />
+      <Transcription Original="oi" Replacement="wa" />
+      <Transcription Original="ou" Replacement="u" />
+      <Transcription Original="o" Replacement="wa" Suffix="y" />
+      <Transcription Original="o" Replacement="o" />
+      <Transcription Original="u" Replacement="ɥ" Suffix="i" />
+      <Transcription Original="û|ue?" Replacement="y" />
+      <Transcription Original="y" Replacement="j" Prefix="[\s\-]" />
+      <Transcription Original="y" Replacement="i" Prefix="[^aàâæeéèêëiîïoôœuùûüyÿ]" />
+      <Transcription Original="y" Replacement="j" />
+      <!-- Consonants -->
+      <Transcription Original="b" Replacement="b" />
+      <Transcription Original="(?:sc|c|s)h" Replacement="ʃ" />
+      <Transcription Original="s?c" Replacement="s" Suffix="'?[eéèêëiîïyÿ]" />
+      <Transcription Original="ç" Replacement="s" />
+      <Transcription Original="c(?:c|k|qu?)?|qu?" Replacement="k" />
+      <Transcription Original="dd?" Replacement="d" />
+      <Transcription Original="ff?|ph" Replacement="f" />
+      <Transcription Original="gn" Replacement="ɲ" />
+      <Transcription Original="gu" Replacement="g" Suffix="[aàâæeéèêëiîïoôœuùûüyÿ]" />
+      <Transcription Original="g(?:gu?)?" Replacement="ʒ" Suffix="'?[eéèêëiîïyÿ]" />
+      <Transcription Original="g" Replacement="g" />
+      <Transcription Original="h" Replacement="" />
+      <Transcription Original="j" Replacement="ʒ" />
+      <Transcription Original="k" Replacement="k" />
+      <Transcription Original="ll" Replacement="j" Prefix="i" />
+      <Transcription Original="ll?" Replacement="l" />
+      <Transcription Original="mm?" Replacement="m" />
+      <Transcription Original="ng" Replacement="n" Suffix="ŋ" />
+      <Transcription Original="nn?" Replacement="n" />
+      <Transcription Original="pp?" Replacement="p" />
+      <Transcription Original="r[rh]?" Replacement="ʁ" />
+      <Transcription Original="s" Replacement="s" Prefix="[\s\-]" />
+      <Transcription Original="s" Replacement="s" Prefix="[bcçdfghjklmnpqrtvwxz]" />
+      <Transcription Original="s" Replacement="s" Suffix="[bçdfgjklmnpqrtvwxz]" />
+      <Transcription Original="s" Replacement="z" />
+      <Transcription Original="t" Replacement="s" Suffix="ion" />
+      <Transcription Original="t[th]?" Replacement="t" />
+      <Transcription Original="v" Replacement="v" />
+      <Transcription Original="w" Replacement="v" />
+      <Transcription Original="x" Replacement="gz" Prefix="[\s\-]" Suffix="érès[\s\-]" />
+      <Transcription Original="xc" Replacement="ks" Suffix="[eéèêëiîïyÿ]" />
+      <Transcription Original="xs?" Replacement="ks" Suffix="e[\s\-]|[bcçdfghjklmnpqrtvwxz]" />
+      <Transcription Original="x" Replacement="ks" Suffix="e?\s" />
+      <Transcription Original="x" Replacement="gz" />
+      <Transcription Original="z" Replacement="z" />
+      <!-- Cleanup -->
+      <Transcription Original="\-" Replacement=" " />
+      <Transcription Original="'" Replacement="" />
+    </IPA>
+  </Language>
+  <Language Name="Japanese" ISO="ja" Native="日本語">
+    <IPA>
+      <!-- Exceptions -->
+      <Transcription Original="iu" Replacement="jɯː" Prefix="\b(?:au|k(?:ō|oo|ou)|s(?:ō|oo|ou))" Suffix="\s" />
+      <!-- Vowels -->
+      <Transcription Original="ā|aa" Replacement="aː" />
+      <Transcription Original="a" Replacement="ã" Suffix="[nm][^aeiouāēīōū]" />
+      <Transcription Original="a" Replacement="a" />
+      <Transcription Original="ē|ee|ei" Replacement="ɛː" />
+      <Transcription Original="e" Replacement="ɛ̃" Suffix="[nm][^aeiouāēīōū]" />
+      <Transcription Original="e" Replacement="ɛ" />
+      <Transcription Original="ī|ii" Replacement="iː" />
+      <Transcription Original="i" Replacement="ĩ" Suffix="[nm][^aeiouāēīōū]" />
+      <Transcription Original="i" Replacement="i̥" Prefix="k|sy?|h|ty?" Suffix="[ksct]" />
+      <Transcription Original="i" Replacement="i" />
+      <Transcription Original="ō|oo|ou" Replacement="ɔː" />
+      <Transcription Original="o" Replacement="ɔ̃" Suffix="[nm][^aeiouāēīōū]" />
+      <Transcription Original="o" Replacement="ɔ" />
+      <Transcription Original="ū|uu" Replacement="ɯː" />
+      <Transcription Original="u" Replacement="ɯ̃" Suffix="[nm][^aeiouāēīōū]" />
+      <Transcription Original="u" Replacement="ɯ̥" Prefix="k|sy?|h|f|ty?" Suffix="[ksct]" />
+      <Transcription Original="u" Replacement="ɯ" />
+      <!-- Consonants -->
+      <Transcription Original="b" Replacement="β" Prefix="[aeiouāēīōū]" Suffix="[aeiouāēīōū]" />
+      <Transcription Original="b" Replacement="b" />
+      <Transcription Original="c" Replacement="t" Suffix="ch|t[iy]" />
+      <Transcription Original="ch" Replacement="tʃ" />
+      <Transcription Original="dy|jy?|zy" Replacement="dʒ" />
+      <Transcription Original="d" Replacement="d" />
+      <Transcription Original="f" Replacement="ɸ" />
+      <Transcription Original="g" Replacement="ɣ" Prefix="[aeiouāēīōū]" Suffix="[aeiouāēīōū]" />
+      <Transcription Original="g" Replacement="g" />
+      <Transcription Original="h" Replacement="ç" Suffix="[iīy]" />
+      <Transcription Original="h" Replacement="ɸ" Suffix="[uū]" />
+      <Transcription Original="h" Replacement="h" />
+      <Transcription Original="k" Replacement="k" />
+      <Transcription Original="m" Replacement="m" />
+      <Transcription Original="n" Replacement="n" Suffix="[aeiouāēīōūdnt]" />
+      <Transcription Original="n" Replacement="m" Suffix="[bmp]" />
+      <Transcription Original="n" Replacement="ŋ" Suffix="[kg]" />
+      <Transcription Original="n" Replacement="ɴ" />
+      <Transcription Original="p" Replacement="p" />
+      <Transcription Original="[lr]" Replacement="ɾ" />
+      <Transcription Original="s[hy]" Replacement="ʃ" />
+      <Transcription Original="s" Replacement="ʃ" Suffix="i" />
+      <Transcription Original="s" Replacement="s" />
+      <Transcription Original="ty" Replacement="tʃ" />
+      <Transcription Original="t" Replacement="tʃ" Suffix="[iī]" />
+      <Transcription Original="t" Replacement="ts" Suffix="[uū]" />
+      <Transcription Original="t" Replacement="t" />
+      <Transcription Original="w" Replacement="w" />
+      <Transcription Original="y" Replacement="j" />
+      <Transcription Original="z" Replacement="z" />
+      <Transcription Original="['\-]" Replacement="" />
+    </IPA>
+  </Language>
+  <Language Name="Korean" ISO="kr" Native="한국어">
+    <Decomposition>
+      <Constituent Offset="-44032" Modulus="28" Divisor="1" Intercept="4519" Order="2" RangeMin="44032" RangeMax="55203" />
+      <Constituent Offset="-39513" Modulus="588" Divisor="28" Intercept="4449" Order="1" RangeMin="44032" RangeMax="55203">
+        <PrevFactor Index="0" MultiplyBy="-1" />
+      </Constituent>
+      <Constituent Offset="-44032" Modulus="1" Divisor="588" Intercept="4352" Order="0" RangeMin="44032" RangeMax="55203" />
+    </Decomposition>
+    <Romanization Name="McCune-Reischauer">
+      <!-- Initial -->
+      <Transliteration Original="ᄀ" Replacement="k">
+        <Exception Replacement="g" Prefix="[ᆼᆫᆯᆷᆧ]" />
+        <Exception Replacement="k'" Prefix="[ᆭᆶᇂ]" />
+      </Transliteration>
+      <Transliteration Original="ᄁ" Replacement="kk">
+        <Exception Replacement="k" Prefix="ᆨ" />
+      </Transliteration>
+      <Transliteration Original="ᄂ" Replacement="n">
+        <Exception Replacement="" Prefix="\s" Suffix="[ᅣᅤᅧᅨᅭᅲᅵ]" />
+        <Exception Replacement="l" Prefix="[ᆯᆶ]" />
+      </Transliteration>
+      <Transliteration Original="ᄃ" Replacement="t">
+        <!-- not sure about R -->
+        <Exception Replacement="d" Prefix="[ᆼᆫᆯᆷᆧ]" />
+        <Exception Replacement="t'" Prefix="[ᆭᆶᇂ]" />
+      </Transliteration>
+      <Transliteration Original="ᄄ" Replacement="tt" />
+      <Transliteration Original="ᄅ" Replacement="n">
+        <Exception Replacement="" Prefix="\s" Suffix="[ᅣᅤᅧᅨᅭᅲᅵ]" />
+        <Exception Replacement="r" Prefix="ᆧ" />
+        <Exception Replacement="l" Prefix="[ᆫᆯ]" />
+      </Transliteration>
+      <Transliteration Original="ᄆ" Replacement="m" />
+      <Transliteration Original="ᄇ" Replacement="p">
+        <Exception Replacement="b" Prefix="[ᆼᆫᆯᆷᆧ]" />
+      </Transliteration>
+      <Transliteration Original="ᄈ" Replacement="pp" />
+      <Transliteration Original="ᄉ" Replacement="s">
+        <Exception Replacement="sh" Prefix="ᅱ" />
+      </Transliteration>
+      <Transliteration Original="ᄊ" Replacement="ss" />
+      <Transliteration Original="ᄋ" Replacement="" />
+      <Transliteration Original="ᄌ" Replacement="ch">
+        <Exception Replacement="j" Prefix="[ᆼᆫᆷᆧ]" />
+        <Exception Replacement="ch'" Prefix="[ᆭᆶᇂ]" />
+      </Transliteration>
+      <Transliteration Original="ᄍ" Replacement="tch" />
+      <Transliteration Original="ᄎ" Replacement="ch'" />
+      <Transliteration Original="ᄏ" Replacement="k'" />
+      <Transliteration Original="ᄐ" Replacement="t'" />
+      <Transliteration Original="ᄑ" Replacement="p'" />
+      <Transliteration Original="ᄒ" Replacement="h">
+        <Exception Replacement="" Prefix="[ᆮᆽᆬᆰ]" />
+      </Transliteration>
+      <!-- Vowel -->
+      <Transliteration Original="ᅡ" Replacement="a" />
+      <Transliteration Original="ᅢ" Replacement="ae" />
+      <Transliteration Original="ᅣ" Replacement="ya" />
+      <Transliteration Original="ᅤ" Replacement="yae" />
+      <Transliteration Original="ᅥ" Replacement="ŏ" />
+      <Transliteration Original="ᅦ" Replacement="e">
+        <Exception Replacement="ë" Prefix="[ㅏㅗ]" />
+      </Transliteration>
+      <Transliteration Original="ᅧ" Replacement="yŏ" />
+      <Transliteration Original="ᅨ" Replacement="ye" />
+      <Transliteration Original="ᅩ" Replacement="o" />
+      <Transliteration Original="ᅪ" Replacement="wa" />
+      <Transliteration Original="ᅫ" Replacement="wae" />
+      <Transliteration Original="ᅬ" Replacement="oe" />
+      <Transliteration Original="ᅭ" Replacement="yo" />
+      <Transliteration Original="ᅮ" Replacement="u" />
+      <Transliteration Original="ᅯ" Replacement="wŏ" />
+      <Transliteration Original="ᅰ" Replacement="we" />
+      <Transliteration Original="ᅱ" Replacement="wi" />
+      <Transliteration Original="ᅲ" Replacement="yu" />
+      <Transliteration Original="ᅳ" Replacement="ŭ" />
+      <Transliteration Original="ᅴ" Replacement="ŭi" />
+      <Transliteration Original="ᅵ" Replacement="i" />
+      <!-- Final -->
+      <Transliteration Original="ᆨ" Replacement="k">
+        <Exception Replacement="g" Suffix="ᄋ" />
+        <Exception Replacement="ng" Suffix="[ᄂᄅᄆ]" />
+      </Transliteration>
+      <Transliteration Original="ᆩ" Replacement="k">
+        <Exception Replacement="kk" Suffix="ᄋ" />
+      </Transliteration>
+      <Transliteration Original="ᆪ" Replacement="k" />
+      <Transliteration Original="ᆫ" Replacement="n">
+        <Exception Replacement="l" Suffix="ᄅ" />
+        <Exception Replacement="n'" Suffix="ᄀ" />
+      </Transliteration>
+      <Transliteration Original="ᆬ" Replacement="n">
+        <Exception Replacement="nj" Suffix="ᄋ" />
+        <Exception Replacement="nch'" Suffix="ᄒ" />
+      </Transliteration>
+      <Transliteration Original="ᆭ" Replacement="n" />
+      <Transliteration Original="ᆮ" Replacement="t">
+        <Exception Replacement="d" Suffix="ᄋ" />
+        <Exception Replacement="n" Suffix="ᄂ" />
+        <Exception Replacement="ch'" Suffix="ᄒ" />
+      </Transliteration>
+      <Transliteration Original="ᆯ" Replacement="l">
+        <Exception Replacement="r" Suffix="[ᄋᄒ]" />
+      </Transliteration>
+      <Transliteration Original="ᆰ" Replacement="l">
+        <Exception Replacement="lg" Suffix="ᄋ" />
+        <Exception Replacement="l" Suffix="ᄀ" />
+        <Exception Replacement="ng" Suffix="ᄂ" />
+        <Exception Replacement="lk'" Suffix="ᄒ" />
+        <Exception Replacement="k" Suffix="[ᄁᄃᄄᄅᄆᄇᄈᄉᄊᄋᄌᄍᄎᄏᄐᄑᄒ]" />
+      </Transliteration>
+      <Transliteration Original="ᆱ" Replacement="m">
+        <Exception Replacement="lm" Suffix="ᄋ" />
+      </Transliteration>
+      <Transliteration Original="ᆲ" Replacement="l">
+        <Exception Replacement="lb" Suffix="ᄋ" />
+        <Exception Replacement="lp'" Suffix="ᄒ" />
+        <Exception Replacement="l" Prefix="바" Suffix="ᄂ" />
+        <Exception Replacement="p" Prefix="바" Suffix="[ᄀᄁᄃᄄᄅᄆᄇᄈᄉᄊᄋᄌᄍᄎᄏᄐᄑᄒ]" />
+      </Transliteration>
+      <Transliteration Original="ᆳ" Replacement="l" />
+      <Transliteration Original="ᆴ" Replacement="l">
+        <Exception Replacement="lt'" Suffix="ᄋ" />
+      </Transliteration>
+      <Transliteration Original="ᆵ" Replacement="p">
+        <Exception Replacement="lp'" Suffix="ᄋ" />
+      </Transliteration>
+      <Transliteration Original="ᆶ" Replacement="l">
+        <Exception Replacement="r" Suffix="ᄋ" />
+      </Transliteration>
+      <Transliteration Original="ᆷ" Replacement="m" />
+      <Transliteration Original="ᆸ" Replacement="p">
+        <Exception Replacement="b" Suffix="ᄋ" />
+        <Exception Replacement="m" Suffix="[ᄂᄅᄆ]" />
+      </Transliteration>
+      <Transliteration Original="ᆹ" Replacement="p">
+        <Exception Replacement="ps" Suffix="ᄋ" />
+      </Transliteration>
+      <Transliteration Original="ᆺ" Replacement="d">
+        <!-- s in single words, nn in compound words -->
+        <Exception Replacement="nn" Suffix="ᄋ[ᅣᅤᅧᅨᅭᅲᅵ]" />
+        <Exception Replacement="t" Suffix="[ᄀᄃᄇᄉᄌᄒ\b]" />
+      </Transliteration>
+      <Transliteration Original="ᆻ" Replacement="t">
+        <Exception Replacement="ss" Suffix="ᄋ" />
+        <Exception Replacement="n" Suffix="ᄂ" />
+      </Transliteration>
+      <Transliteration Original="ᆼ" Replacement="ng" />
+      <Transliteration Original="ᆽ" Replacement="t">
+        <Exception Replacement="n" Suffix="[ᄂᄆ]" />
+        <Exception Replacement="ch'" Suffix="ᄒ" />
+      </Transliteration>
+      <Transliteration Original="ᆾ" Replacement="t">
+        <Exception Replacement="j" Suffix="ᄋ" />
+        <Exception Replacement="n" Suffix="[ᄂᄆ]" />
+      </Transliteration>
+      <Transliteration Original="ᆿ" Replacement="k">
+        <Exception Replacement="k'" Suffix="[ᄀᄁᄂᄃᄄᄅᄆᄇᄈᄉᄊᄋᄌᄍᄎᄏᄐᄑᄒ]" />
+      </Transliteration>
+      <Transliteration Original="ᇀ" Replacement="t">
+        <Exception Replacement="t'" Suffix="ᄋ" />
+        <Exception Replacement="n" Suffix="이|[ᄂᄆ]" />
+      </Transliteration>
+      <Transliteration Original="ᇁ" Replacement="p" />
+      <Transliteration Original="ᇂ" Replacement="t">
+        <Exception Replacement="" Suffix="ᄋ" />
+        <Exception Replacement="n" Suffix="ᄂ" />
+      </Transliteration>
+      <Transliteration Original="ᆧ" Replacement="" />
+    </Romanization>
+    <Romanization Name="Revised">
+      <!-- Initial -->
+      <Transliteration Original="ᄀ" Replacement="g" />
+      <Transliteration Original="ᄁ" Replacement="gg" />
+      <Transliteration Original="ᄂ" Replacement="n" />
+      <Transliteration Original="ᄃ" Replacement="d" />
+      <Transliteration Original="ᄄ" Replacement="dd" />
+      <Transliteration Original="ᄅ" Replacement="r" />
+      <Transliteration Original="ᄆ" Replacement="m" />
+      <Transliteration Original="ᄇ" Replacement="b" />
+      <Transliteration Original="ᄈ" Replacement="bb" />
+      <Transliteration Original="ᄉ" Replacement="s" />
+      <Transliteration Original="ᄊ" Replacement="ss" />
+      <Transliteration Original="ᄋ" Replacement="" />
+      <Transliteration Original="ᄌ" Replacement="j" />
+      <Transliteration Original="ᄍ" Replacement="jj" />
+      <Transliteration Original="ᄎ" Replacement="c" />
+      <Transliteration Original="ᄏ" Replacement="k" />
+      <Transliteration Original="ᄐ" Replacement="t" />
+      <Transliteration Original="ᄑ" Replacement="p" />
+      <Transliteration Original="ᄒ" Replacement="h" />
+      <!-- Medial -->
+      <Transliteration Original="ᅡ" Replacement="a" />
+      <Transliteration Original="ᅢ" Replacement="ae" />
+      <Transliteration Original="ᅣ" Replacement="ya" />
+      <Transliteration Original="ᅤ" Replacement="yae" />
+      <Transliteration Original="ᅥ" Replacement="eo" />
+      <Transliteration Original="ᅦ" Replacement="e" />
+      <Transliteration Original="ᅧ" Replacement="yeo" />
+      <Transliteration Original="ᅨ" Replacement="ye" />
+      <Transliteration Original="ᅩ" Replacement="o" />
+      <Transliteration Original="ᅪ" Replacement="wa" />
+      <Transliteration Original="ᅫ" Replacement="wae" />
+      <Transliteration Original="ᅬ" Replacement="oe" />
+      <Transliteration Original="ᅭ" Replacement="yo" />
+      <Transliteration Original="ᅮ" Replacement="u" />
+      <Transliteration Original="ᅯ" Replacement="weo" />
+      <Transliteration Original="ᅰ" Replacement="we" />
+      <Transliteration Original="ᅱ" Replacement="wi" />
+      <Transliteration Original="ᅲ" Replacement="yu" />
+      <Transliteration Original="ᅳ" Replacement="eu" />
+      <Transliteration Original="ᅴ" Replacement="yi" />
+      <Transliteration Original="ᅵ" Replacement="i" />
+      <!-- Final -->
+      <Transliteration Original="ᆨ" Replacement="g" />
+      <Transliteration Original="ᆩ" Replacement="gg" />
+      <Transliteration Original="ᆪ" Replacement="gs" />
+      <Transliteration Original="ᆫ" Replacement="n" />
+      <Transliteration Original="ᆬ" Replacement="nj" />
+      <Transliteration Original="ᆭ" Replacement="nh" />
+      <Transliteration Original="ᆮ" Replacement="d" />
+      <Transliteration Original="ᆯ" Replacement="l" />
+      <Transliteration Original="ᆰ" Replacement="lg" />
+      <Transliteration Original="ᆱ" Replacement="lm" />
+      <Transliteration Original="ᆲ" Replacement="lb" />
+      <Transliteration Original="ᆳ" Replacement="ls" />
+      <Transliteration Original="ᆴ" Replacement="lt" />
+      <Transliteration Original="ᆵ" Replacement="lp" />
+      <Transliteration Original="ᆶ" Replacement="lh" />
+      <Transliteration Original="ᆷ" Replacement="m" />
+      <Transliteration Original="ᆸ" Replacement="b" />
+      <Transliteration Original="ᆹ" Replacement="bs" />
+      <Transliteration Original="ᆺ" Replacement="s" />
+      <Transliteration Original="ᆻ" Replacement="ss" />
+      <Transliteration Original="ᆼ" Replacement="ng" />
+      <Transliteration Original="ᆽ" Replacement="j" />
+      <Transliteration Original="ᆾ" Replacement="c" />
+      <Transliteration Original="ᆿ" Replacement="k" />
+      <Transliteration Original="ᇀ" Replacement="t" />
+      <Transliteration Original="ᇁ" Replacement="p" />
+      <Transliteration Original="ᇂ" Replacement="h" />
+      <Transliteration Original="ᆧ" Replacement="" />
+    </Romanization>
+    <IPA>
+      <!-- Short vowels -->
+      <Transcription Original="ae" Replacement="ɛ" />
+      <Transcription Original="a" Replacement="a" />
+      <Transcription Original="eo" Replacement="ʌ" />
+      <Transcription Original="eu" Replacement="ɯ" />
+      <Transcription Original="oe" Replacement="ø" />
+      <Transcription Original="e" Replacement="e" />
+      <Transcription Original="i" Replacement="i" />
+      <Transcription Original="o" Replacement="o" />
+      <Transcription Original="u" Replacement="u" />
+      <Transcription Original="ui" Replacement="ɰi" Prefix="\s" />
+      <!-- Long vowels -->
+      <Transcription Original="ae" Replacement="ɛː" />
+      <Transcription Original="a" Replacement="ɑː" />
+      <Transcription Original="eo" Replacement="ɘː" />
+      <Transcription Original="eu" Replacement="ɯː" />
+      <Transcription Original="oe" Replacement="øː" />
+      <Transcription Original="e" Replacement="eː" />
+      <Transcription Original="i" Replacement="iː" />
+      <Transcription Original="o" Replacement="oː" />
+      <Transcription Original="u" Replacement="uː" />
+      <!-- Consonants -->
+      <Transcription Original="b" Replacement="b" Prefix="[aeilnou]" Suffix="[aeiou]" />
+      <Transcription Original="b" Replacement="p" />
+      <Transcription Original="ch" Replacement="tɕʰ" />
+      <Transcription Original="d" Replacement="d" Prefix="[aeilnou]" Suffix="[aeiou]" />
+      <Transcription Original="d" Replacement="t" />
+      <Transcription Original="g" Replacement="g" Prefix="[aeilnou]" Suffix="[aeiou]" />
+      <Transcription Original="g" Replacement="k" />
+      <Transcription Original="h" Replacement="ɦ" Prefix="[aeilnou]" Suffix="[aeiou]" />
+      <Transcription Original="h" Replacement="x" Suffix="eu" />
+      <Transcription Original="h" Replacement="ç" Suffix="[iy]" />
+      <Transcription Original="h" Replacement="ɸ" Suffix="[ouw]" />
+      <Transcription Original="h" Replacement="h" />
+      <Transcription Original="jj" Replacement="tɕ͈" />
+      <Transcription Original="j" Replacement="dʑ" Prefix="[aeilnou]" Suffix="[aeiou]" />
+      <Transcription Original="j" Replacement="tɕ" />
+      <Transcription Original="kk" Replacement="k͈" />
+      <Transcription Original="k" Replacement="kx" Suffix="eu" />
+      <Transcription Original="k" Replacement="kç" Suffix="[iy]" />
+      <Transcription Original="k" Replacement="kʰ" />
+      <Transcription Original="l" Replacement="l" />
+      <Transcription Original="m" Replacement="m" />
+      <Transcription Original="ng" Replacement="ŋ" Suffix="[^aeiou]" />
+      <Transcription Original="n" Replacement="n" />
+      <Transcription Original="pp" Replacement="p͈" />
+      <Transcription Original="p" Replacement="pʰ" />
+      <Transcription Original="r" Replacement="ɾ" />
+      <Transcription Original="ss" Replacement="ɕ͈" Suffix="[iy]" />
+      <Transcription Original="ss" Replacement="s͈" />
+      <Transcription Original="s" Replacement="ɕ" Suffix="[iy]" />
+      <Transcription Original="s" Replacement="s" />
+      <Transcription Original="tt" Replacement="t͈" />
+      <Transcription Original="t" Replacement="tʰ" />
+      <Transcription Original="y" Replacement="j" />
+      <Transcription Original="w" Replacement="w" />
+    </IPA>
+  </Language>
+  <Language Name="Latin" ISO="la" Native="Latina">
+    <IPA>
+      <!-- Diphthongs -->
+      <Transcription Original="ae|æ" Replacement="aj" />
+      <Transcription Original="a[uv]" Replacement="aw" />
+      <Transcription Original="e[uv]" Replacement="ew" />
+      <Transcription Original="oe|œ" Replacement="oj" />
+      <Transcription Original="[uv]i" Replacement="uj" Prefix="[^aeiou\s]" />
+      <!-- Nasalized vowels -->
+      <Transcription Original="a[nm]" Replacement="ã" Suffix="[^aeiouvy]" />
+      <Transcription Original="e[nm]" Replacement="ẽː" Suffix="[^aeiouvy]" />
+      <Transcription Original="i[nm]" Replacement="ĩː" Suffix="[^aeiouvy]" />
+      <Transcription Original="o[nm]" Replacement="õː" Suffix="[^aeiouvy]" />
+      <Transcription Original="[uv][nm]" Replacement="ũː" Suffix="[^aeiouvy]" />
+      <!-- Long vowels -->
+      <!--
+    <Transcription Original="a" Replacement="aː" />
+    <Transcription Original="e" Replacement="eː" />
+    <Transcription Original="i" Replacement="iː" />
+    <Transcription Original="o" Replacement="oː" />
+    <Transcription Original="[uv]" Replacement="uː" Prefix="[^aeiou]" />
+    -->
+      <!-- Short vowels -->
+      <Transcription Original="a" Replacement="a" />
+      <Transcription Original="e" Replacement="ɛ" />
+      <Transcription Original="i" Replacement="ɪ" Suffix="[^aeiou]" />
+      <Transcription Original="i" Replacement="ɪ" Prefix="[^aeiou\s]" />
+      <Transcription Original="o" Replacement="ɔ" />
+      <Transcription Original="[uv]" Replacement="ʊ" Suffix="[^aeiou]" />
+      <Transcription Original="[uv]" Replacement="ʊ" Prefix="[^aeiou\s]" />
+      <!-- Consonants -->
+      <Transcription Original="b" Replacement="b" />
+      <Transcription Original="c" Replacement="k" />
+      <Transcription Original="d" Replacement="d" />
+      <Transcription Original="f" Replacement="f" />
+      <Transcription Original="gn" Replacement="ŋn" />
+      <Transcription Original="g" Replacement="g" />
+      <Transcription Original="h" Replacement="ʰ" Prefix="[cpt]" />
+      <Transcription Original="h" Replacement="h" />
+      <Transcription Original="[ij]" Replacement="j" />
+      <Transcription Original="k" Replacement="k" />
+      <Transcription Original="l" Replacement="l" />
+      <Transcription Original="m" Replacement="m" />
+      <Transcription Original="n" Replacement="n" />
+      <Transcription Original="p" Replacement="p" />
+      <Transcription Original="q[uv]" Replacement="kʷ" />
+      <Transcription Original="r" Replacement="r" />
+      <Transcription Original="s" Replacement="s" />
+      <Transcription Original="t" Replacement="t" />
+      <Transcription Original="v" Replacement="w" />
+      <Transcription Original="x" Replacement="ks" />
+      <Transcription Original="z" Replacement="z" />
+    </IPA>
+  </Language>
+  <Language Name="Mandarin" ISO="zh" Native="中文">
+    <Romanization Name="Pinyin">
+      <Transliteration Original="[啊]" Replacement="a ">
+        <Exception Replacement="ā " Suffix="[\!！]" />
+        <Exception Replacement="à " Suffix="[\,，]" />
+        <Exception Replacement="á " Suffix="[\?？]" />
+      </Transliteration>
+      <Transliteration Original="[阿]" Replacement="ā ">
+        <Exception Replacement="ē " Suffix="弥" />
+      </Transliteration>
+      <Transliteration Original="[癌]" Replacement="ái " />
+      <Transliteration Original="[爱碍艾唉]" Replacement="ài ">
+        <Exception Original="艾" Replacement="yì " Prefix="怨" />
+      </Transliteration>
+      <Transliteration Original="[矮]" Replacement="ǎi " />
+      <Transliteration Original="[挨哀埃哎]" Replacement="āi " />
+      <Transliteration Original="[暗案按岸]" Replacement="àn " />
+      <Transliteration Original="[俺]" Replacement="ǎn " />
+      <Transliteration Original="[安]" Replacement="ān " />
+      <Transliteration Original="[昂]" Replacement="áng " />
+      <Transliteration Original="[熬]" Replacement="áo " />
+      <Transliteration Original="[奥澳傲]" Replacement="ào " />
+      <Transliteration Original="[吧]" Replacement="ba " />
+      <Transliteration Original="[拔]" Replacement="bá " />
+      <Transliteration Original="[罢爸霸坝]" Replacement="bà " />
+      <Transliteration Original="[把]" Replacement="bǎ ">
+        <Exception Replacement="bà " Suffix="子" />
+      </Transliteration>
+      <Transliteration Original="[八巴叭扒]" Replacement="bā ">
+        <Exception Original="巴" Replacement="bà" Prefix="嘴 " Suffix="子" />
+      </Transliteration>
+      <Transliteration Original="[白]" Replacement="bái ">
+        <Exception Replacement="bó " Prefix="李" />
+      </Transliteration>
+      <Transliteration Original="[败拜]" Replacement="bài ">
+        <Exception Original="拜" Replacement="bái " Suffix="拜" />
+      </Transliteration>
+      <Transliteration Original="[百摆柏]" Replacement="bǎi ">
+        <Exception Original="柏" Replacement="bò " Prefix="黄" />
+        <Exception Original="柏" Replacement="bó " Suffix="林" />
+      </Transliteration>
+      <Transliteration Original="[办半伴扮]" Replacement="bàn " />
+      <Transliteration Original="[版板]" Replacement="bǎn " />
+      <Transliteration Original="[般班搬斑颁]" Replacement="bān ">
+        <Exception Original="般" Replacement="bō " Suffix="若" />
+      </Transliteration>
+      <Transliteration Original="[棒傍]" Replacement="bàng " />
+      <Transliteration Original="[膀绑榜]" Replacement="bǎng ">
+        <Exception Original="膀" Replacement="páng " Suffix="胱" />
+      </Transliteration>
+      <Transliteration Original="[帮邦]" Replacement="bāng " />
+      <Transliteration Original="[薄]" Replacement="báo ">
+        <Exception Replacement="bó " Suffix="弱" />
+        <Exception Replacement="bò " Suffix="荷" />
+      </Transliteration>
+      <Transliteration Original="[报抱暴爆鲍]" Replacement="bào " />
+      <Transliteration Original="[保宝饱堡]" Replacement="bǎo ">
+        <Exception Original="堡" Replacement="bǔ" Prefix="= " Suffix="子" />
+      </Transliteration>
+      <Transliteration Original="[包胞剥]" Replacement="bāo ">
+        <Exception Original="剥" Replacement="bō " Suffix="削" />
+      </Transliteration>
+      <Transliteration Original="[被备背辈贝倍]" Replacement="bèi ">
+        <Exception Original="被" Replacement="pī " Suffix="服" />
+      </Transliteration>
+      <Transliteration Original="[北]" Replacement="běi " />
+      <Transliteration Original="[悲杯碑卑]" Replacement="bēi " />
+      <Transliteration Original="[笨]" Replacement="bèn " />
+      <Transliteration Original="[本]" Replacement="běn " />
+      <Transliteration Original="[奔]" Replacement="bēn " />
+      <Transliteration Original="[鼻]" Replacement="bí " />
+      <Transliteration Original="[必毕避臂币壁闭碧辟毙蔽弊]" Replacement="bì ">
+        <Exception Original="臂" Replacement="bei " Prefix="胳" />
+        <Exception Original="辟" Replacement="pì " Prefix="开" />
+      </Transliteration>
+      <Transliteration Original="[比笔彼鄙]" Replacement="bǐ " />
+      <Transliteration Original="[逼]" Replacement="bī " />
+      <Transliteration Original="[便变遍辩辨辫]" Replacement="biàn ">
+        <Exception Original="便" Replacement="pián " Suffix="宜" />
+      </Transliteration>
+      <Transliteration Original="[扁]" Replacement="biǎn ">
+        <Exception Replacement="piān " Suffix="舟" />
+      </Transliteration>
+      <Transliteration Original="[边编鞭]" Replacement="biān " />
+      <Transliteration Original="[表]" Replacement="biǎo " />
+      <Transliteration Original="[标彪镖]" Replacement="biāo " />
+      <Transliteration Original="[别]" Replacement="bié ">
+        <Exception Replacement="biè " Suffix="扭" />
+      </Transliteration>
+      <Transliteration Original="[憋]" Replacement="biē " />
+      <Transliteration Original="[宾彬滨斌]" Replacement="bīn " />
+      <Transliteration Original="[并病]" Replacement="bìng ">
+        <Exception Original="并" Replacement="bīng " Suffix="州" />
+      </Transliteration>
+      <Transliteration Original="[柄饼]" Replacement="bǐng " />
+      <Transliteration Original="[兵冰]" Replacement="bīng " />
+      <Transliteration Original="[伯博勃脖泊驳搏]" Replacement="bó ">
+        <Exception Original="伯" Replacement="bai " Prefix="叔" />
+        <Exception Original="伯" Replacement="bǎi" Prefix="大 " Suffix="子" />
+        <Exception Original="泊" Replacement="pō " Prefix="湖" />
+      </Transliteration>
+      <Transliteration Original="[波播拨玻]" Replacement="bō " />
+      <Transliteration Original="[不部步布怖]" Replacement="bù ">
+        <Exception Original="不" Replacement="bú " Suffix="是" />
+      </Transliteration>
+      <Transliteration Original="[补捕卜]" Replacement="bǔ ">
+        <Exception Original="卜" Replacement="bo " Prefix="萝" />
+      </Transliteration>
+      <Transliteration Original="[擦]" Replacement="cā " />
+      <Transliteration Original="[才财材裁]" Replacement="cái " />
+      <Transliteration Original="[菜蔡]" Replacement="cài " />
+      <Transliteration Original="[采彩踩]" Replacement="cǎi ">
+        <Exception Original="采" Replacement="cài " Suffix="地" />
+      </Transliteration>
+      <Transliteration Original="[猜]" Replacement="cāi " />
+      <Transliteration Original="[残]" Replacement="cán " />
+      <Transliteration Original="[灿]" Replacement="càn " />
+      <Transliteration Original="[惨]" Replacement="cǎn " />
+      <Transliteration Original="[参餐]" Replacement="cān ">
+        <Exception Original="参" Replacement="cēn " Suffix="差" />
+        <Exception Original="参" Replacement="shēn " Prefix="人" />
+      </Transliteration>
+      <Transliteration Original="[藏]" Replacement="cáng ">
+        <Exception Replacement="zàng " Prefix="西" />
+      </Transliteration>
+      <Transliteration Original="[苍仓舱]" Replacement="cāng " />
+      <Transliteration Original="[曹]" Replacement="cáo " />
+      <Transliteration Original="[草]" Replacement="cǎo " />
+      <Transliteration Original="[操]" Replacement="cāo " />
+      <Transliteration Original="[策测侧册厕]" Replacement="cè ">
+        <Exception Original="侧" Replacement="zhāi " Suffix="歪" />
+        <Exception Original="厕" Replacement="si " Prefix="茅" />
+      </Transliteration>
+      <Transliteration Original="[曾层]" Replacement="céng ">
+        <Exception Original="曾" Replacement="cēng" Prefix="挨 " Suffix="儿" />
+      </Transliteration>
+      <Transliteration Original="[查察茶]" Replacement="chá " />
+      <Transliteration Original="[差]" Replacement="chà ">
+        <Exception Replacement="chā " Suffix="别" />
+        <Exception Replacement="chāi" Prefix="出 " Suffix="" />
+      </Transliteration>
+      <Transliteration Original="[插叉]" Replacement="chā ">
+        <Exception Original="叉" Replacement="chà " Suffix="路" />
+      </Transliteration>
+      <Transliteration Original="[柴]" Replacement="chái " />
+      <Transliteration Original="[拆]" Replacement="chāi " />
+      <Transliteration Original="[禅缠]" Replacement="chán ">
+        <Exception Original="禅" Replacement="shàn " Suffix="让" />
+      </Transliteration>
+      <Transliteration Original="[颤]" Replacement="chàn " />
+      <Transliteration Original="[产阐]" Replacement="chǎn " />
+      <Transliteration Original="[长常尝偿肠]" Replacement="cháng " />
+      <Transliteration Original="[唱畅倡]" Replacement="chàng ">
+        <Exception Original="倡" Replacement="chāng " Suffix="优" />
+      </Transliteration>
+      <Transliteration Original="[场厂敞]" Replacement="chǎng " />
+      <Transliteration Original="[昌]" Replacement="chāng " />
+      <Transliteration Original="[朝潮嘲]" Replacement="cháo " />
+      <Transliteration Original="[吵炒]" Replacement="chǎo ">
+        <Exception Original="吵" Replacement="chāo " Suffix="吵" />
+      </Transliteration>
+      <Transliteration Original="[超抄]" Replacement="chāo " />
+      <Transliteration Original="[彻撤]" Replacement="chè " />
+      <Transliteration Original="[扯]" Replacement="chě " />
+      <Transliteration Original="[车]" Replacement="chē " />
+      <Transliteration Original="[陈沉晨尘臣辰]" Replacement="chén ">
+        <Exception Original="沉" Replacement="chēn" Prefix="黑 " Suffix="沉" />
+      </Transliteration>
+      <Transliteration Original="[趁衬]" Replacement="chèn " />
+      <Transliteration Original="[琛]" Replacement="chēn " />
+      <Transliteration Original="[成城程承乘盛诚呈惩澄]" Replacement="chéng ">
+        <Exception Original="澄" Replacement="dēng" Prefix="黄 " Suffix="澄" />
+        <Exception Original="盛" Replacement="shèng " Prefix="茂" />
+      </Transliteration>
+      <Transliteration Original="[称撑]" Replacement="chēng ">
+        <Exception Original="称" Replacement="chèn " Prefix="对" />
+      </Transliteration>
+      <Transliteration Original="[持迟池驰]" Replacement="chí ">
+        <Exception Original="迟" Replacement="zhì " Suffix="旦" />
+      </Transliteration>
+      <Transliteration Original="[赤斥]" Replacement="chì " />
+      <Transliteration Original="[尺耻齿]" Replacement="chǐ ">
+        <Exception Original="尺" Replacement="chě " Prefix="工" />
+      </Transliteration>
+      <Transliteration Original="[吃痴嗤]" Replacement="chī ">
+        <Exception Original="吃" Replacement="qī " Suffix="吃" />
+      </Transliteration>
+      <Transliteration Original="[崇虫]" Replacement="chóng " />
+      <Transliteration Original="[宠]" Replacement="chǒng " />
+      <Transliteration Original="[冲充]" Replacement="chōng " />
+      <Transliteration Original="[仇愁筹酬绸]" Replacement="chóu " />
+      <Transliteration Original="[臭]" Replacement="chòu " />
+      <Transliteration Original="[丑瞅]" Replacement="chǒu ">
+        <Exception Original="瞅" Replacement="qiu" Prefix="溜 " Suffix="" />
+      </Transliteration>
+      <Transliteration Original="[抽]" Replacement="chōu " />
+      <Transliteration Original="[楚]" Replacement="chu ">
+        <Exception Replacement="chǔ " Prefix="苦" />
+      </Transliteration>
+      <Transliteration Original="[除厨]" Replacement="chú " />
+      <Transliteration Original="[处触]" Replacement="chù " />
+      <Transliteration Original="[础储]" Replacement="chǔ " />
+      <Transliteration Original="[出初]" Replacement="chū " />
+      <Transliteration Original="[传船]" Replacement="chuán " />
+      <Transliteration Original="[串]" Replacement="chuàn " />
+      <Transliteration Original="[喘]" Replacement="chuǎn " />
+      <Transliteration Original="[穿川]" Replacement="chuān " />
+      <Transliteration Original="[床]" Replacement="chuáng " />
+      <Transliteration Original="[创]" Replacement="chuàng ">
+        <Exception Replacement="chuāng " Suffix="伤" />
+      </Transliteration>
+      <Transliteration Original="[闯]" Replacement="chuǎng " />
+      <Transliteration Original="[窗]" Replacement="chuāng " />
+      <Transliteration Original="[垂锤]" Replacement="chuí " />
+      <Transliteration Original="[吹]" Replacement="chuī " />
+      <Transliteration Original="[纯唇淳]" Replacement="chún " />
+      <Transliteration Original="[蠢]" Replacement="chǔn " />
+      <Transliteration Original="[春]" Replacement="chūn " />
+      <Transliteration Original="[绰]" Replacement="chuò " />
+      <Transliteration Original="[词辞慈磁瓷]" Replacement="cí " />
+      <Transliteration Original="[次刺赐]" Replacement="cì " />
+      <Transliteration Original="[此]" Replacement="cǐ " />
+      <Transliteration Original="[从丛]" Replacement="cóng ">
+        <Exception Original="从" Replacement="cōng" Prefix="黑 " Suffix="从" />
+      </Transliteration>
+      <Transliteration Original="[匆聪葱]" Replacement="cōng " />
+      <Transliteration Original="[凑]" Replacement="còu " />
+      <Transliteration Original="[促醋]" Replacement="cù " />
+      <Transliteration Original="[粗]" Replacement="cū " />
+      <Transliteration Original="[窜]" Replacement="cuàn " />
+      <Transliteration Original="[脆翠粹]" Replacement="cuì " />
+      <Transliteration Original="[崔催摧]" Replacement="cuī " />
+      <Transliteration Original="[存]" Replacement="cún " />
+      <Transliteration Original="[寸]" Replacement="cùn " />
+      <Transliteration Original="[村]" Replacement="cūn " />
+      <Transliteration Original="[错措挫]" Replacement="cuò " />
+      <Transliteration Original="[达答]" Replacement="dá ">
+        <Exception Original="答" Replacement="dā " Suffix="应" />
+        <Exception Original="达" Replacement="tà " Prefix="挑" />
+      </Transliteration>
+      <Transliteration Original="[大]" Replacement="dà ">
+        <Exception Replacement="dài " Suffix="夫" />
+      </Transliteration>
+      <Transliteration Original="[打]" Replacement="dǎ " />
+      <Transliteration Original="[搭]" Replacement="dā ">
+        <Exception Replacement="dá " Suffix="茬" />
+      </Transliteration>
+      <Transliteration Original="[代带待袋戴贷逮]" Replacement="dài ">
+        <Exception Original="逮" Replacement="dǎi" Prefix="猫 " Suffix="老" />
+      </Transliteration>
+      <Transliteration Original="[歹]" Replacement="dǎi " />
+      <Transliteration Original="[呆]" Replacement="dāi ">
+        <Exception Replacement="ái " Suffix="板" />
+      </Transliteration>
+      <Transliteration Original="[但弹淡旦蛋诞]" Replacement="dàn ">
+        <Exception Original="弹" Replacement="tán " Suffix="吉" />
+      </Transliteration>
+      <Transliteration Original="[胆]" Replacement="dǎn " />
+      <Transliteration Original="[单担丹]" Replacement="dān ">
+        <Exception Original="单" Replacement="chán " Suffix="于" />
+      </Transliteration>
+      <Transliteration Original="[荡档]" Replacement="dàng ">
+        <Exception Original="档" Replacement="dǎng" Prefix="骂 " Suffix="子" />
+      </Transliteration>
+      <Transliteration Original="[党挡]" Replacement="dǎng ">
+        <Exception Original="挡" Replacement="dàng " Prefix="摒" />
+      </Transliteration>
+      <Transliteration Original="[当]" Replacement="dāng ">
+        <Exception Replacement="dàng" Prefix="= " Suffix="作" />
+      </Transliteration>
+      <Transliteration Original="[到道盗稻悼]" Replacement="dào ">
+        <Exception Original="道" Replacement="dǎo " Prefix="领" />
+      </Transliteration>
+      <Transliteration Original="[倒导岛蹈捣]" Replacement="dǎo " />
+      <Transliteration Original="[刀叨]" Replacement="dāo ">
+        <Exception Original="叨" Replacement="tāo " Suffix="光" />
+      </Transliteration>
+      <Transliteration Original="[的得]" Replacement="de ">
+        <Exception Original="的" Replacement="dì " Prefix="目" />
+        <Exception Original="的" Replacement="dí " Suffix="确" />
+      </Transliteration>
+      <Transliteration Original="[德]" Replacement="dé " />
+      <Transliteration Original="[邓瞪凳]" Replacement="dèng " />
+      <Transliteration Original="[等]" Replacement="děng " />
+      <Transliteration Original="[登灯]" Replacement="dēng " />
+      <Transliteration Original="[敌狄迪笛]" Replacement="dí " />
+      <Transliteration Original="[地第弟帝递蒂]" Replacement="dì " />
+      <Transliteration Original="[底抵]" Replacement="dǐ " />
+      <Transliteration Original="[低滴堤]" Replacement="dī " />
+      <Transliteration Original="[电店殿淀甸奠]" Replacement="diàn ">
+        <Exception Original="甸" Replacement="diān" Prefix="沉 " Suffix="甸" />
+      </Transliteration>
+      <Transliteration Original="[点典]" Replacement="diǎn " />
+      <Transliteration Original="[颠]" Replacement="diān " />
+      <Transliteration Original="[调掉钓吊]" Replacement="diào " />
+      <Transliteration Original="[雕]" Replacement="diāo " />
+      <Transliteration Original="[叠蝶碟]" Replacement="dié " />
+      <Transliteration Original="[爹跌]" Replacement="diē " />
+      <Transliteration Original="[定订]" Replacement="dìng " />
+      <Transliteration Original="[顶鼎]" Replacement="dǐng " />
+      <Transliteration Original="[丁钉盯叮]" Replacement="dīng ">
+        <Exception Original="丁" Replacement="zhēng " Suffix="丁" />
+      </Transliteration>
+      <Transliteration Original="[丢]" Replacement="diū " />
+      <Transliteration Original="[动洞冻栋]" Replacement="dòng " />
+      <Transliteration Original="[懂董]" Replacement="dǒng " />
+      <Transliteration Original="[东冬]" Replacement="dōng " />
+      <Transliteration Original="[豆逗]" Replacement="dòu " />
+      <Transliteration Original="[斗抖陡]" Replacement="dǒu " />
+      <Transliteration Original="[都兜]" Replacement="dōu ">
+        <Exception Original="都" Replacement="dū " Prefix="首" />
+      </Transliteration>
+      <Transliteration Original="[读独毒]" Replacement="dú " />
+      <Transliteration Original="[度肚渡杜]" Replacement="dù ">
+        <Exception Original="度" Replacement="duó " Prefix="猜" />
+      </Transliteration>
+      <Transliteration Original="[赌堵睹]" Replacement="dǔ " />
+      <Transliteration Original="[督]" Replacement="dū " />
+      <Transliteration Original="[段断锻]" Replacement="duàn " />
+      <Transliteration Original="[短]" Replacement="duǎn " />
+      <Transliteration Original="[端]" Replacement="duān " />
+      <Transliteration Original="[对队兑]" Replacement="duì " />
+      <Transliteration Original="[堆]" Replacement="duī ">
+        <Exception Replacement="zuī " Prefix="包" />
+      </Transliteration>
+      <Transliteration Original="[顿盾]" Replacement="dùn " />
+      <Transliteration Original="[吨敦蹲]" Replacement="dūn " />
+      <Transliteration Original="[夺]" Replacement="duó " />
+      <Transliteration Original="[舵堕]" Replacement="duò " />
+      <Transliteration Original="[躲朵]" Replacement="duǒ ">
+        <Exception Original="朵" Replacement="duo " Prefix="耳" />
+      </Transliteration>
+      <Transliteration Original="[多]" Replacement="duō " />
+      <Transliteration Original="[额俄鹅]" Replacement="é " />
+      <Transliteration Original="[恶饿]" Replacement="è ">
+        <Exception Original="恶" Replacement="ě" Suffix="心" />
+        <Exception Original="恶" Replacement="wù" Prefix="厌 " />
+      </Transliteration>
+      <Transliteration Original="[恩]" Replacement="ēn " />
+      <Transliteration Original="[而儿]" Replacement="ér ">
+        <Exception Original="儿" Replacement="r " Prefix="这" />
+      </Transliteration>
+      <Transliteration Original="[二]" Replacement="èr " />
+      <Transliteration Original="[尔耳]" Replacement="ěr " />
+      <Transliteration Original="[乏罚伐]" Replacement="fá " />
+      <Transliteration Original="[法]" Replacement="fǎ " />
+      <Transliteration Original="[发]" Replacement="fā ">
+        <Exception Replacement="fa " Prefix="头" />
+      </Transliteration>
+      <Transliteration Original="[凡烦繁]" Replacement="fán " />
+      <Transliteration Original="[饭犯范泛贩]" Replacement="fàn " />
+      <Transliteration Original="[反返]" Replacement="fǎn ">
+        <Exception Original="反" Replacement="bǎn " Suffix="反" />
+      </Transliteration>
+      <Transliteration Original="[翻番]" Replacement="fān ">
+        <Exception Original="番" Replacement="pān " Suffix="禺" />
+      </Transliteration>
+      <Transliteration Original="[房防妨]" Replacement="fáng " />
+      <Transliteration Original="[放]" Replacement="fàng " />
+      <Transliteration Original="[访仿纺]" Replacement="fǎng " />
+      <Transliteration Original="[方芳坊]" Replacement="fāng " />
+      <Transliteration Original="[肥]" Replacement="féi " />
+      <Transliteration Original="[费废肺沸]" Replacement="fèi " />
+      <Transliteration Original="[斐菲匪]" Replacement="fěi ">
+        <Exception Original="菲" Replacement="fēi " Suffix="律" />
+      </Transliteration>
+      <Transliteration Original="[非飞啡]" Replacement="fēi " />
+      <Transliteration Original="[坟焚]" Replacement="fén " />
+      <Transliteration Original="[份奋愤粪]" Replacement="fèn " />
+      <Transliteration Original="[粉]" Replacement="fěn " />
+      <Transliteration Original="[分纷芬吩氛]" Replacement="fēn " />
+      <Transliteration Original="[逢缝]" Replacement="féng " />
+      <Transliteration Original="[凤奉]" Replacement="fèng " />
+      <Transliteration Original="[讽]" Replacement="fěng " />
+      <Transliteration Original="[风封峰丰锋枫疯蜂]" Replacement="fēng " />
+      <Transliteration Original="[佛]" Replacement="fó ">
+        <Exception Replacement="fú " Prefix="仿" />
+      </Transliteration>
+      <Transliteration Original="[否]" Replacement="fǒu ">
+        <Exception Replacement="pǐ " Prefix="臧" />
+      </Transliteration>
+      <Transliteration Original="[服福幅伏扶浮符弗芙拂俘]" Replacement="fú " />
+      <Transliteration Original="[父复副负妇富付附赴腹咐覆傅赋缚]" Replacement="fù " />
+      <Transliteration Original="[府腐抚俯甫辅]" Replacement="fǔ " />
+      <Transliteration Original="[夫肤敷]" Replacement="fū " />
+      <Transliteration Original="[概盖丐]" Replacement="gài " />
+      <Transliteration Original="[改]" Replacement="gǎi " />
+      <Transliteration Original="[该]" Replacement="gāi " />
+      <Transliteration Original="[感敢赶]" Replacement="gǎn " />
+      <Transliteration Original="[干甘杆肝]" Replacement="gān " />
+      <Transliteration Original="[港岗]" Replacement="gǎng ">
+        <Exception Original="岗" Replacement="gāng" Prefix="花 " Suffix="石" />
+        <Exception Original="岗" Replacement="gàng " Suffix="口" />
+      </Transliteration>
+      <Transliteration Original="[刚钢纲缸冈]" Replacement="gāng " />
+      <Transliteration Original="[告]" Replacement="gào ">
+        <Exception Replacement="gù " Suffix="朔" />
+      </Transliteration>
+      <Transliteration Original="[稿搞]" Replacement="gǎo " />
+      <Transliteration Original="[高糕膏]" Replacement="gāo " />
+      <Transliteration Original="[革格隔阁葛]" Replacement="gé ">
+        <Exception Original="革" Replacement="jí " Prefix="病" />
+      </Transliteration>
+      <Transliteration Original="[个各]" Replacement="gè ">
+        <Exception Original="个" Replacement="gě " Prefix="自" />
+        <Exception Original="各" Replacement="gě " Prefix="自" />
+      </Transliteration>
+      <Transliteration Original="[哥歌割戈搁胳]" Replacement="gē ">
+        <Exception Original="胳" Replacement="gé " Suffix="肢" />
+      </Transliteration>
+      <Transliteration Original="[给]" Replacement="gěi ">
+        <Exception Replacement="jǐ " Prefix="供" />
+      </Transliteration>
+      <Transliteration Original="[跟根]" Replacement="gēn " />
+      <Transliteration Original="[更]" Replacement="gèng ">
+        <Exception Replacement="gēng" Prefix="= " Suffix="改" />
+      </Transliteration>
+      <Transliteration Original="[耿]" Replacement="gěng " />
+      <Transliteration Original="[耕]" Replacement="gēng " />
+      <Transliteration Original="[共贡]" Replacement="gòng " />
+      <Transliteration Original="[拱巩]" Replacement="gǒng " />
+      <Transliteration Original="[公工功供攻宫恭躬弓]" Replacement="gōng " />
+      <Transliteration Original="[够构购]" Replacement="gòu " />
+      <Transliteration Original="[狗]" Replacement="gǒu " />
+      <Transliteration Original="[沟勾钩]" Replacement="gōu ">
+        <Exception Original="勾" Replacement="gòu " Suffix="当" />
+      </Transliteration>
+      <Transliteration Original="[故顾固雇]" Replacement="gù " />
+      <Transliteration Original="[古股骨鼓谷贾]" Replacement="gǔ ">
+        <Exception Original="骨" Replacement="gū " Suffix="碌" />
+        <Exception Original="鼓" Replacement="gū" Prefix="胖 " Suffix="鼓" />
+      </Transliteration>
+      <Transliteration Original="[姑孤估辜咕]" Replacement="gū ">
+        <Exception Original="估" Replacement="gù " Suffix="衣" />
+      </Transliteration>
+      <Transliteration Original="[挂]" Replacement="guà " />
+      <Transliteration Original="[寡]" Replacement="guǎ " />
+      <Transliteration Original="[瓜刮]" Replacement="guā ">
+        <Exception Original="刮" Replacement="kā " Suffix="吃" />
+      </Transliteration>
+      <Transliteration Original="[怪]" Replacement="guài " />
+      <Transliteration Original="[拐]" Replacement="guǎi " />
+      <Transliteration Original="[乖]" Replacement="guāi " />
+      <Transliteration Original="[惯贯灌罐]" Replacement="guàn " />
+      <Transliteration Original="[管馆]" Replacement="guǎn " />
+      <Transliteration Original="[关观官冠]" Replacement="guān ">
+        <Exception Original="冠" Replacement="guàn " Suffix="军" />
+        <Exception Original="观" Replacement="guàn " Prefix="道" />
+      </Transliteration>
+      <Transliteration Original="[逛]" Replacement="guàng " />
+      <Transliteration Original="[广]" Replacement="guǎng " />
+      <Transliteration Original="[光]" Replacement="guāng " />
+      <Transliteration Original="[贵桂跪柜]" Replacement="guì ">
+        <Exception Original="柜" Replacement="jǔ " Suffix="柳" />
+      </Transliteration>
+      <Transliteration Original="[鬼轨]" Replacement="guǐ " />
+      <Transliteration Original="[规归龟瑰]" Replacement="guī ">
+        <Exception Original="瑰" Replacement="gui " Prefix="玫" />
+        <Exception Original="龟" Replacement="jūn " Suffix="裂" />
+        <Exception Original="龟" Replacement="qiū " Suffix="兹" />
+      </Transliteration>
+      <Transliteration Original="[棍]" Replacement="gùn " />
+      <Transliteration Original="[滚]" Replacement="gǔn " />
+      <Transliteration Original="[国]" Replacement="guó " />
+      <Transliteration Original="[过]" Replacement="guò " />
+      <Transliteration Original="[果裹]" Replacement="guǒ " />
+      <Transliteration Original="[郭锅]" Replacement="guō " />
+      <Transliteration Original="[哈]" Replacement="hā ">
+        <Exception Replacement="hà " Suffix="撒" />
+      </Transliteration>
+      <Transliteration Original="[还孩]" Replacement="hái " />
+      <Transliteration Original="[害]" Replacement="hài " />
+      <Transliteration Original="[海]" Replacement="hǎi " />
+      <Transliteration Original="[咳]" Replacement="hāi ">
+        <Exception Replacement="ké " Suffix="嗽" />
+      </Transliteration>
+      <Transliteration Original="[含寒韩涵函]" Replacement="hán " />
+      <Transliteration Original="[汉汗憾翰旱撼]" Replacement="hàn ">
+        <Exception Original="汗" Replacement="hán " Prefix="可" />
+      </Transliteration>
+      <Transliteration Original="[喊罕]" Replacement="hǎn ">
+        <Exception Original="罕" Replacement="han " Prefix="希" />
+      </Transliteration>
+      <Transliteration Original="[航杭]" Replacement="háng " />
+      <Transliteration Original="[毫豪]" Replacement="háo " />
+      <Transliteration Original="[号浩耗]" Replacement="hào " />
+      <Transliteration Original="[好]" Replacement="hǎo ">
+        <Exception Replacement="hāo " Suffix="好" />
+      </Transliteration>
+      <Transliteration Original="[和何合河核荷盒禾]" Replacement="hé ">
+        <Exception Original="和" Replacement="huo " Prefix="暖" />
+        <Exception Original="核" Replacement="hú " Suffix="儿" />
+      </Transliteration>
+      <Transliteration Original="[赫贺鹤]" Replacement="hè " />
+      <Transliteration Original="[喝呵]" Replacement="hē " />
+      <Transliteration Original="[黑嘿]" Replacement="hēi " />
+      <Transliteration Original="[痕]" Replacement="hén " />
+      <Transliteration Original="[恨]" Replacement="hèn " />
+      <Transliteration Original="[很狠]" Replacement="hěn " />
+      <Transliteration Original="[横衡恒]" Replacement="héng " />
+      <Transliteration Original="[哼亨]" Replacement="hēng " />
+      <Transliteration Original="[红洪鸿宏虹]" Replacement="hóng ">
+        <Exception Original="红" Replacement="gōng " Prefix="女" />
+      </Transliteration>
+      <Transliteration Original="[轰哄]" Replacement="hōng " />
+      <Transliteration Original="[侯喉猴]" Replacement="hóu " />
+      <Transliteration Original="[后候厚後]" Replacement="hòu " />
+      <Transliteration Original="[吼]" Replacement="hǒu " />
+      <Transliteration Original="[胡湖狐糊壶]" Replacement="hú " />
+      <Transliteration Original="[户护互沪]" Replacement="hù " />
+      <Transliteration Original="[虎]" Replacement="hǔ ">
+        <Exception Replacement="hū" Prefix="马 " Suffix="虎" />
+        <Exception Replacement="hù " Suffix="不" />
+      </Transliteration>
+      <Transliteration Original="[乎呼忽]" Replacement="hū " />
+      <Transliteration Original="[华划滑哗]" Replacement="huá ">
+        <Exception Original="划" Replacement="huà " Prefix="计" />
+        <Exception Original="华" Replacement="huà " Suffix="山" />
+      </Transliteration>
+      <Transliteration Original="[话化画]" Replacement="huà ">
+        <Exception Original="话" Replacement="huo " Prefix="白" />
+      </Transliteration>
+      <Transliteration Original="[花]" Replacement="huā " />
+      <Transliteration Original="[怀淮]" Replacement="huái " />
+      <Transliteration Original="[坏]" Replacement="huài " />
+      <Transliteration Original="[环]" Replacement="huán " />
+      <Transliteration Original="[换幻患唤]" Replacement="huàn " />
+      <Transliteration Original="[缓]" Replacement="huǎn " />
+      <Transliteration Original="[欢]" Replacement="huān " />
+      <Transliteration Original="[黄皇惶煌]" Replacement="huáng " />
+      <Transliteration Original="[晃]" Replacement="huàng " />
+      <Transliteration Original="[谎恍]" Replacement="huǎng " />
+      <Transliteration Original="[荒慌]" Replacement="huāng " />
+      <Transliteration Original="[回]" Replacement="huí " />
+      <Transliteration Original="[会汇惠慧绘贿讳]" Replacement="huì ">
+        <Exception Original="会" Replacement="huǐ " Suffix="儿" />
+        <Exception Original="会" Replacement="kuài " Suffix="计" />
+      </Transliteration>
+      <Transliteration Original="[毁悔]" Replacement="huǐ " />
+      <Transliteration Original="[挥灰辉恢徽]" Replacement="huī " />
+      <Transliteration Original="[魂浑]" Replacement="hún " />
+      <Transliteration Original="[混]" Replacement="hùn " />
+      <Transliteration Original="[婚昏]" Replacement="hūn " />
+      <Transliteration Original="[活]" Replacement="huó " />
+      <Transliteration Original="[或获货祸惑霍]" Replacement="huò ">
+        <Exception Original="惑" Replacement="huo " Prefix="迷" />
+      </Transliteration>
+      <Transliteration Original="[火伙]" Replacement="huǒ " />
+      <Transliteration Original="[及即极集级急辑吉疾籍脊藉]" Replacement="jí ">
+        <Exception Original="脊" Replacement="jǐ " Prefix="屋" />
+      </Transliteration>
+      <Transliteration Original="[计记技际济纪既寄继忌迹季寂绩祭妓剂]" Replacement="jì ">
+        <Exception Original="济" Replacement="jǐ " Suffix="济" />
+      </Transliteration>
+      <Transliteration Original="[己挤]" Replacement="jǐ " />
+      <Transliteration Original="[机几基击激积鸡饥肌圾讥姬]" Replacement="jī ">
+        <Exception Original="圾" Replacement="sè " Prefix="垃" />
+      </Transliteration>
+      <Transliteration Original="[颊]" Replacement="jiá " />
+      <Transliteration Original="[价架驾嫁稼]" Replacement="jià " />
+      <Transliteration Original="[假甲]" Replacement="jiǎ ">
+        <Exception Original="假" Replacement="jià" Prefix="= " Suffix="期" />
+      </Transliteration>
+      <Transliteration Original="[家加佳夹嘉]" Replacement="jiā ">
+        <Exception Original="夹" Replacement="gā " Suffix="肢" />
+        <Exception Original="家" Replacement="jie " Prefix="天" />
+      </Transliteration>
+      <Transliteration Original="[见件建剑渐健箭舰键鉴践荐贱]" Replacement="jiàn " />
+      <Transliteration Original="[简检减剪捡拣俭]" Replacement="jiǎn " />
+      <Transliteration Original="[间坚监肩尖兼奸艰煎]" Replacement="jiān ">
+        <Exception Original="间" Replacement="gān" Prefix="半 " Suffix="不" />
+      </Transliteration>
+      <Transliteration Original="[降匠酱]" Replacement="jiàng ">
+        <Exception Original="匠" Replacement="jiang " Prefix="木" />
+        <Exception Original="降" Replacement="xiáng " Prefix="投" />
+      </Transliteration>
+      <Transliteration Original="[讲奖蒋]" Replacement="jiǎng " />
+      <Transliteration Original="[将江疆姜僵浆]" Replacement="jiāng ">
+        <Exception Original="将" Replacement="jiàng " Prefix="麻" />
+      </Transliteration>
+      <Transliteration Original="[叫较轿]" Replacement="jiào " />
+      <Transliteration Original="[脚角缴搅绞]" Replacement="jiǎo " />
+      <Transliteration Original="[教交焦娇骄郊胶浇]" Replacement="jiāo ">
+        <Exception Original="教" Replacement="jiào " Suffix="师" />
+      </Transliteration>
+      <Transliteration Original="[结节杰截洁捷劫竭]" Replacement="jié ">
+        <Exception Original="节" Replacement="jiē " Suffix="子" />
+      </Transliteration>
+      <Transliteration Original="[界介借届戒]" Replacement="jiè ">
+        <Exception Original="界" Replacement="gà " Prefix="不" />
+        <Exception Original="界" Replacement="gā " Prefix="搭" />
+      </Transliteration>
+      <Transliteration Original="[解姐]" Replacement="jiě ">
+        <Exception Original="解" Replacement="jiè " Suffix="送" />
+      </Transliteration>
+      <Transliteration Original="[接街阶皆揭]" Replacement="jiē " />
+      <Transliteration Original="[进近尽禁劲晋浸]" Replacement="jìn ">
+        <Exception Original="劲" Replacement="jìng" Prefix="强 " Suffix="" />
+        <Exception Original="尽" Replacement="jǐn " Suffix="管" />
+        <Exception Original="禁" Replacement="jīn " Prefix="不" />
+      </Transliteration>
+      <Transliteration Original="[紧仅锦谨]" Replacement="jǐn " />
+      <Transliteration Original="[金今津斤筋巾襟]" Replacement="jīn " />
+      <Transliteration Original="[竟境静靖敬竞净镜径]" Replacement="jìng " />
+      <Transliteration Original="[景警井颈]" Replacement="jǐng ">
+        <Exception Original="颈" Replacement="gěng" Prefix="脖 " Suffix="儿" />
+      </Transliteration>
+      <Transliteration Original="[经京精惊睛晶]" Replacement="jīng ">
+        <Exception Original="睛" Replacement="jing " Prefix="眼" />
+      </Transliteration>
+      <Transliteration Original="[就救旧舅]" Replacement="jiù " />
+      <Transliteration Original="[九久酒]" Replacement="jiǔ " />
+      <Transliteration Original="[究纠]" Replacement="jiū " />
+      <Transliteration Original="[局菊]" Replacement="jú " />
+      <Transliteration Original="[据句具剧巨聚距拒惧俱]" Replacement="jù ">
+        <Exception Original="据" Replacement="jū " Prefix="拮" />
+      </Transliteration>
+      <Transliteration Original="[举矩]" Replacement="jǔ " />
+      <Transliteration Original="[居拘]" Replacement="jū " />
+      <Transliteration Original="[倦]" Replacement="juàn " />
+      <Transliteration Original="[卷]" Replacement="juǎn " />
+      <Transliteration Original="[捐]" Replacement="juān " />
+      <Transliteration Original="[觉决绝爵掘嚼]" Replacement="jué ">
+        <Exception Original="嚼" Replacement="jiào" Prefix="倒 " Suffix="" />
+        <Exception Original="觉" Replacement="jiào " Prefix="睡" />
+      </Transliteration>
+      <Transliteration Original="[俊峻]" Replacement="jùn " />
+      <Transliteration Original="[军均君菌]" Replacement="jūn " />
+      <Transliteration Original="[卡]" Replacement="kǎ " />
+      <Transliteration Original="[咖喀]" Replacement="kā ">
+        <Exception Original="咖" Replacement="gā " Suffix="喱" />
+      </Transliteration>
+      <Transliteration Original="[凯慨]" Replacement="kǎi " />
+      <Transliteration Original="[开]" Replacement="kāi " />
+      <Transliteration Original="[看]" Replacement="kàn ">
+        <Exception Replacement="kān " Suffix="守" />
+      </Transliteration>
+      <Transliteration Original="[砍坎]" Replacement="kǎn " />
+      <Transliteration Original="[刊堪]" Replacement="kān " />
+      <Transliteration Original="[扛]" Replacement="káng " />
+      <Transliteration Original="[抗]" Replacement="kàng " />
+      <Transliteration Original="[康慷]" Replacement="kāng " />
+      <Transliteration Original="[靠]" Replacement="kào " />
+      <Transliteration Original="[考烤]" Replacement="kǎo " />
+      <Transliteration Original="[壳]" Replacement="ké " />
+      <Transliteration Original="[克客刻课]" Replacement="kè " />
+      <Transliteration Original="[可渴]" Replacement="kě ">
+        <Exception Original="可" Replacement="kè " Suffix="汗" />
+      </Transliteration>
+      <Transliteration Original="[科颗柯棵磕]" Replacement="kē " />
+      <Transliteration Original="[肯恳]" Replacement="kěn " />
+      <Transliteration Original="[坑]" Replacement="kēng " />
+      <Transliteration Original="[控]" Replacement="kòng " />
+      <Transliteration Original="[恐孔]" Replacement="kǒng " />
+      <Transliteration Original="[空]" Replacement="kōng " />
+      <Transliteration Original="[扣]" Replacement="kòu " />
+      <Transliteration Original="[口]" Replacement="kǒu " />
+      <Transliteration Original="[库裤酷]" Replacement="kù " />
+      <Transliteration Original="[苦]" Replacement="kǔ " />
+      <Transliteration Original="[哭枯]" Replacement="kū " />
+      <Transliteration Original="[跨]" Replacement="kuà " />
+      <Transliteration Original="[垮]" Replacement="kuǎ " />
+      <Transliteration Original="[夸]" Replacement="kuā " />
+      <Transliteration Original="[快块筷]" Replacement="kuài " />
+      <Transliteration Original="[款]" Replacement="kuǎn " />
+      <Transliteration Original="[宽]" Replacement="kuān " />
+      <Transliteration Original="[狂]" Replacement="kuáng " />
+      <Transliteration Original="[况矿旷框]" Replacement="kuàng " />
+      <Transliteration Original="[奎]" Replacement="kuí " />
+      <Transliteration Original="[愧溃]" Replacement="kuì " />
+      <Transliteration Original="[亏]" Replacement="kuī " />
+      <Transliteration Original="[困]" Replacement="kùn " />
+      <Transliteration Original="[昆]" Replacement="kūn " />
+      <Transliteration Original="[括扩阔]" Replacement="kuò " />
+      <Transliteration Original="[啦]" Replacement="la ">
+        <Exception Replacement="lā" Prefix="呼 " Suffix="啦" />
+        <Exception Replacement="lá " Suffix="啦" />
+      </Transliteration>
+      <Transliteration Original="[辣腊蜡]" Replacement="là ">
+        <Exception Original="辣" Replacement="lā" Prefix="热 " Suffix="辣" />
+      </Transliteration>
+      <Transliteration Original="[喇]" Replacement="lǎ ">
+        <Exception Replacement="lá" Prefix="哈 " Suffix="子" />
+        <Exception Replacement="lā " Suffix="喇" />
+      </Transliteration>
+      <Transliteration Original="[拉]" Replacement="lā ">
+        <Exception Replacement="lǎ " Prefix="半" />
+        <Exception Replacement="là " Suffix="拉" />
+      </Transliteration>
+      <Transliteration Original="[来莱]" Replacement="lái ">
+        <Exception Original="来" Replacement="lai " Prefix="起" />
+      </Transliteration>
+      <Transliteration Original="[赖]" Replacement="lài " />
+      <Transliteration Original="[兰栏蓝拦篮]" Replacement="lán " />
+      <Transliteration Original="[烂滥]" Replacement="làn " />
+      <Transliteration Original="[览懒缆]" Replacement="lǎn " />
+      <Transliteration Original="[郎狼廊]" Replacement="láng ">
+        <Exception Original="郎" Replacement="làng" Prefix="壳 " Suffix="" />
+      </Transliteration>
+      <Transliteration Original="[浪]" Replacement="làng " />
+      <Transliteration Original="[朗]" Replacement="lǎng " />
+      <Transliteration Original="[劳牢]" Replacement="láo " />
+      <Transliteration Original="[老姥]" Replacement="lǎo " />
+      <Transliteration Original="[捞]" Replacement="lāo " />
+      <Transliteration Original="[了]" Replacement="le ">
+        <Exception Replacement="liǎo" Prefix="= " Suffix="解" />
+      </Transliteration>
+      <Transliteration Original="[乐]" Replacement="lè ">
+        <Exception Replacement="yuè " Prefix="音" />
+      </Transliteration>
+      <Transliteration Original="[雷]" Replacement="léi " />
+      <Transliteration Original="[类泪累]" Replacement="lèi ">
+        <Exception Original="累" Replacement="lěi " Prefix="积" />
+      </Transliteration>
+      <Transliteration Original="[垒]" Replacement="lěi " />
+      <Transliteration Original="[勒]" Replacement="lēi ">
+        <Exception Replacement="lè " Suffix="索" />
+      </Transliteration>
+      <Transliteration Original="[愣]" Replacement="lèng " />
+      <Transliteration Original="[冷]" Replacement="lěng " />
+      <Transliteration Original="[离黎璃梨]" Replacement="lí " />
+      <Transliteration Original="[力立利历丽例厉励莉粒隶栗]" Replacement="lì " />
+      <Transliteration Original="[里理李礼]" Replacement="lǐ " />
+      <Transliteration Original="[哩]" Replacement="lī " />
+      <Transliteration Original="[俩]" Replacement="liǎ ">
+        <Exception Replacement="liǎng " Prefix="伎" />
+      </Transliteration>
+      <Transliteration Original="[连联怜莲廉帘]" Replacement="lián " />
+      <Transliteration Original="[练恋炼链]" Replacement="liàn " />
+      <Transliteration Original="[脸]" Replacement="liǎn " />
+      <Transliteration Original="[良粮梁凉]" Replacement="liáng " />
+      <Transliteration Original="[量亮辆谅]" Replacement="liàng " />
+      <Transliteration Original="[两]" Replacement="liǎng " />
+      <Transliteration Original="[疗聊辽僚寥]" Replacement="liáo " />
+      <Transliteration Original="[料]" Replacement="liào " />
+      <Transliteration Original="[列烈裂劣猎]" Replacement="liè " />
+      <Transliteration Original="[林临邻琳淋]" Replacement="lín ">
+        <Exception Original="淋" Replacement="līn" Prefix="湿 " Suffix="淋" />
+      </Transliteration>
+      <Transliteration Original="[凛]" Replacement="lǐn " />
+      <Transliteration Original="[灵零龄凌玲铃陵]" Replacement="líng ">
+        <Exception Original="零" Replacement="līng" Prefix="孤 " Suffix="零" />
+      </Transliteration>
+      <Transliteration Original="[令另]" Replacement="lìng ">
+        <Exception Original="令" Replacement="líng " Prefix="脊" />
+      </Transliteration>
+      <Transliteration Original="[领岭]" Replacement="lǐng " />
+      <Transliteration Original="[流留刘]" Replacement="liú " />
+      <Transliteration Original="[六]" Replacement="liù " />
+      <Transliteration Original="[柳]" Replacement="liǔ " />
+      <Transliteration Original="[溜]" Replacement="liū " />
+      <Transliteration Original="[龙隆笼胧聋]" Replacement="lóng ">
+        <Exception Original="笼" Replacement="lǒng " Suffix="罩" />
+        <Exception Original="隆" Replacement="lōng" Prefix="轰 " Suffix="隆" />
+      </Transliteration>
+      <Transliteration Original="[拢垄]" Replacement="lǒng " />
+      <Transliteration Original="[楼]" Replacement="lóu " />
+      <Transliteration Original="[漏陋]" Replacement="lòu " />
+      <Transliteration Original="[搂]" Replacement="lǒu " />
+      <Transliteration Original="[卢炉芦庐]" Replacement="lú " />
+      <Transliteration Original="[路陆露录鹿碌]" Replacement="lù ">
+        <Exception Original="碌" Replacement="liù " Suffix="碡" />
+      </Transliteration>
+      <Transliteration Original="[鲁]" Replacement="lǔ " />
+      <Transliteration Original="[律率绿虑]" Replacement="lǜ ">
+        <Exception Original="率" Replacement="shuài " Suffix="领" />
+      </Transliteration>
+      <Transliteration Original="[旅吕履缕侣]" Replacement="lǚ " />
+      <Transliteration Original="[乱]" Replacement="luàn " />
+      <Transliteration Original="[卵]" Replacement="luǎn " />
+      <Transliteration Original="[略掠]" Replacement="lüè " />
+      <Transliteration Original="[轮伦沦]" Replacement="lún " />
+      <Transliteration Original="[论]" Replacement="lùn ">
+        <Exception Replacement="lún " Suffix="语" />
+      </Transliteration>
+      <Transliteration Original="[罗逻萝锣]" Replacement="luó ">
+        <Exception Original="罗" Replacement="luō " Suffix="嗦" />
+      </Transliteration>
+      <Transliteration Original="[落络洛骆]" Replacement="luò ">
+        <Exception Original="络" Replacement="lào " Prefix="挂" />
+        <Exception Original="落" Replacement="lào " Suffix="色" />
+        <Exception Original="落" Replacement="luō" Prefix="空 " Suffix="落" />
+      </Transliteration>
+      <Transliteration Original="[裸]" Replacement="luǒ " />
+      <Transliteration Original="[吗嘛]" Replacement="ma ">
+        <Exception Original="吗" Replacement="má" Prefix="干 " Suffix="\?" />
+        <Exception Original="吗" Replacement="mǎ " Suffix="啡" />
+      </Transliteration>
+      <Transliteration Original="[麻]" Replacement="má ">
+        <Exception Replacement="mā " Suffix="麻" />
+      </Transliteration>
+      <Transliteration Original="[骂]" Replacement="mà " />
+      <Transliteration Original="[马码玛]" Replacement="mǎ " />
+      <Transliteration Original="[妈抹]" Replacement="mā ">
+        <Exception Original="抹" Replacement="mǒ " Suffix="布" />
+      </Transliteration>
+      <Transliteration Original="[埋]" Replacement="mái ">
+        <Exception Replacement="mán " Suffix="怨" />
+      </Transliteration>
+      <Transliteration Original="[卖麦脉迈]" Replacement="mài ">
+        <Exception Original="脉" Replacement="mò " Suffix="脉" />
+      </Transliteration>
+      <Transliteration Original="[买]" Replacement="mǎi " />
+      <Transliteration Original="[蛮瞒]" Replacement="mán " />
+      <Transliteration Original="[慢漫曼]" Replacement="màn " />
+      <Transliteration Original="[满]" Replacement="mǎn " />
+      <Transliteration Original="[忙茫盲芒氓]" Replacement="máng ">
+        <Exception Original="芒" Replacement="wáng " Prefix="麦" />
+      </Transliteration>
+      <Transliteration Original="[毛矛茅]" Replacement="máo " />
+      <Transliteration Original="[冒贸貌帽茂]" Replacement="mào " />
+      <Transliteration Original="[猫]" Replacement="māo ">
+        <Exception Replacement="máo " Suffix="腰" />
+      </Transliteration>
+      <Transliteration Original="[麼]" Replacement="me ">
+        <Exception Replacement="mó" Prefix="f " Suffix="\)" />
+      </Transliteration>
+      <Transliteration Original="[么]" Replacement="me/mo " />
+      <Transliteration Original="[没梅眉媒枚煤霉玫]" Replacement="méi " />
+      <Transliteration Original="[妹媚昧]" Replacement="mèi " />
+      <Transliteration Original="[美每]" Replacement="měi " />
+      <Transliteration Original="[们]" Replacement="men " />
+      <Transliteration Original="[门]" Replacement="mén " />
+      <Transliteration Original="[闷]" Replacement="mēn " />
+      <Transliteration Original="[蒙盟朦]" Replacement="méng ">
+        <Exception Original="盟" Replacement="míng " Suffix="誓" />
+        <Exception Original="蒙" Replacement="měng " Suffix="古" />
+      </Transliteration>
+      <Transliteration Original="[梦孟]" Replacement="mèng " />
+      <Transliteration Original="[猛]" Replacement="měng " />
+      <Transliteration Original="[迷弥谜]" Replacement="mí ">
+        <Exception Original="谜" Replacement="mèi " Suffix="儿" />
+      </Transliteration>
+      <Transliteration Original="[密秘蜜觅]" Replacement="mì ">
+        <Exception Original="秘" Replacement="bì " Suffix="鲁" />
+      </Transliteration>
+      <Transliteration Original="[米]" Replacement="mǐ " />
+      <Transliteration Original="[棉绵眠]" Replacement="mián ">
+        <Exception Original="绵" Replacement="miān" Prefix="软 " Suffix="绵" />
+      </Transliteration>
+      <Transliteration Original="[面]" Replacement="miàn " />
+      <Transliteration Original="[免勉缅]" Replacement="miǎn " />
+      <Transliteration Original="[描苗]" Replacement="miáo " />
+      <Transliteration Original="[妙庙]" Replacement="miào " />
+      <Transliteration Original="[秒渺]" Replacement="miǎo " />
+      <Transliteration Original="[灭蔑]" Replacement="miè " />
+      <Transliteration Original="[民]" Replacement="mín " />
+      <Transliteration Original="[敏]" Replacement="mǐn " />
+      <Transliteration Original="[明名鸣铭]" Replacement="míng " />
+      <Transliteration Original="[命]" Replacement="mìng " />
+      <Transliteration Original="[谬]" Replacement="miù " />
+      <Transliteration Original="[模摩磨魔膜]" Replacement="mó ">
+        <Exception Original="摩" Replacement="mā " Suffix="挲" />
+        <Exception Original="模" Replacement="mú " Suffix="样" />
+      </Transliteration>
+      <Transliteration Original="[莫默末漠墨陌寞沫]" Replacement="mò ">
+        <Exception Original="末" Replacement="me " Prefix="什" />
+      </Transliteration>
+      <Transliteration Original="[摸]" Replacement="mō " />
+      <Transliteration Original="[谋]" Replacement="móu " />
+      <Transliteration Original="[某]" Replacement="mǒu " />
+      <Transliteration Original="[目木幕慕墓穆牧沐募]" Replacement="mù " />
+      <Transliteration Original="[母姆亩]" Replacement="mǔ " />
+      <Transliteration Original="[拿]" Replacement="ná " />
+      <Transliteration Original="[那纳]" Replacement="nà ">
+        <Exception Original="那" Replacement="nuò " Prefix="无" />
+        <Exception Original="那" Replacement="nuó " Prefix="禅" />
+      </Transliteration>
+      <Transliteration Original="[哪]" Replacement="nǎ " />
+      <Transliteration Original="[耐奈]" Replacement="nài " />
+      <Transliteration Original="[奶乃]" Replacement="nǎi " />
+      <Transliteration Original="[难南男喃]" Replacement="nán ">
+        <Exception Original="南" Replacement="nā " Suffix="无" />
+      </Transliteration>
+      <Transliteration Original="[囊]" Replacement="náng ">
+        <Exception Replacement="nāng " Suffix="膪" />
+      </Transliteration>
+      <Transliteration Original="[闹]" Replacement="nào " />
+      <Transliteration Original="[脑恼]" Replacement="nǎo " />
+      <Transliteration Original="[呢]" Replacement="ne " />
+      <Transliteration Original="[内]" Replacement="nèi " />
+      <Transliteration Original="[嫩]" Replacement="nèn " />
+      <Transliteration Original="[能]" Replacement="néng " />
+      <Transliteration Original="[嗯]" Replacement="ńg " />
+      <Transliteration Original="[尼泥倪]" Replacement="ní " />
+      <Transliteration Original="[逆腻]" Replacement="nì " />
+      <Transliteration Original="[你拟]" Replacement="nǐ " />
+      <Transliteration Original="[妮]" Replacement="nī " />
+      <Transliteration Original="[年]" Replacement="nián " />
+      <Transliteration Original="[念廿]" Replacement="niàn " />
+      <Transliteration Original="[娘]" Replacement="niáng ">
+        <Exception Replacement="niang " Prefix="姑" />
+      </Transliteration>
+      <Transliteration Original="[酿]" Replacement="niàng " />
+      <Transliteration Original="[尿]" Replacement="niào " />
+      <Transliteration Original="[鸟]" Replacement="niǎo " />
+      <Transliteration Original="[捏]" Replacement="niē " />
+      <Transliteration Original="[您]" Replacement="nín " />
+      <Transliteration Original="[凝]" Replacement="níng " />
+      <Transliteration Original="[宁]" Replacement="nìng ">
+        <Exception Replacement="níng " Suffix="静" />
+      </Transliteration>
+      <Transliteration Original="[牛]" Replacement="niú " />
+      <Transliteration Original="[扭纽]" Replacement="niǔ ">
+        <Exception Original="扭" Replacement="niū " Prefix="吱" />
+      </Transliteration>
+      <Transliteration Original="[农浓]" Replacement="nóng " />
+      <Transliteration Original="[弄]" Replacement="nòng ">
+        <Exception Replacement="lòng " Prefix="里" />
+      </Transliteration>
+      <Transliteration Original="[奴]" Replacement="nú " />
+      <Transliteration Original="[怒]" Replacement="nù " />
+      <Transliteration Original="[努]" Replacement="nǔ " />
+      <Transliteration Original="[女]" Replacement="nǚ " />
+      <Transliteration Original="[暖]" Replacement="nuǎn " />
+      <Transliteration Original="[娜挪]" Replacement="nuó " />
+      <Transliteration Original="[诺]" Replacement="nuò " />
+      <Transliteration Original="[哦]" Replacement="ó " />
+      <Transliteration Original="[偶]" Replacement="ǒu " />
+      <Transliteration Original="[欧]" Replacement="ōu " />
+      <Transliteration Original="[爬]" Replacement="pá ">
+        <Exception Replacement="pā" Prefix="矮 " Suffix="爬" />
+      </Transliteration>
+      <Transliteration Original="[怕帕]" Replacement="pà " />
+      <Transliteration Original="[啪趴]" Replacement="pā " />
+      <Transliteration Original="[排牌]" Replacement="pái ">
+        <Exception Original="排" Replacement="pǎi " Suffix="子" />
+      </Transliteration>
+      <Transliteration Original="[派]" Replacement="pài ">
+        <Exception Replacement="pā " Suffix="司" />
+      </Transliteration>
+      <Transliteration Original="[拍]" Replacement="pāi " />
+      <Transliteration Original="[盘]" Replacement="pán " />
+      <Transliteration Original="[判盼叛畔]" Replacement="pàn " />
+      <Transliteration Original="[潘攀]" Replacement="pān " />
+      <Transliteration Original="[旁庞]" Replacement="páng " />
+      <Transliteration Original="[胖]" Replacement="pàng " />
+      <Transliteration Original="[乓]" Replacement="pāng " />
+      <Transliteration Original="[袍]" Replacement="páo " />
+      <Transliteration Original="[炮泡]" Replacement="pào ">
+        <Exception Original="炮" Replacement="páo " Suffix="制" />
+      </Transliteration>
+      <Transliteration Original="[跑]" Replacement="pǎo " />
+      <Transliteration Original="[抛]" Replacement="pāo " />
+      <Transliteration Original="[培陪赔]" Replacement="péi " />
+      <Transliteration Original="[配佩]" Replacement="pèi " />
+      <Transliteration Original="[盆]" Replacement="pén " />
+      <Transliteration Original="[喷]" Replacement="pēn " />
+      <Transliteration Original="[朋彭鹏棚蓬篷膨]" Replacement="péng " />
+      <Transliteration Original="[碰]" Replacement="pèng " />
+      <Transliteration Original="[捧]" Replacement="pěng " />
+      <Transliteration Original="[砰]" Replacement="pēng " />
+      <Transliteration Original="[皮疲脾啤]" Replacement="pí " />
+      <Transliteration Original="[屁僻譬]" Replacement="pì " />
+      <Transliteration Original="[匹]" Replacement="pǐ " />
+      <Transliteration Original="[批披劈]" Replacement="pī " />
+      <Transliteration Original="[片骗]" Replacement="piàn " />
+      <Transliteration Original="[篇偏]" Replacement="piān " />
+      <Transliteration Original="[票]" Replacement="piào " />
+      <Transliteration Original="[飘漂]" Replacement="piāo ">
+        <Exception Original="漂" Replacement="piào " Suffix="亮" />
+        <Exception Original="漂" Replacement="piǎo " Suffix="白" />
+      </Transliteration>
+      <Transliteration Original="[贫频]" Replacement="pín " />
+      <Transliteration Original="[聘]" Replacement="pìn " />
+      <Transliteration Original="[品]" Replacement="pǐn " />
+      <Transliteration Original="[拼拚]" Replacement="pīn " />
+      <Transliteration Original="[平评凭萍瓶冯屏苹坪]" Replacement="píng ">
+        <Exception Original="屏" Replacement="bǐng " Suffix="息" />
+        <Exception Original="屏" Replacement="bīng " Suffix="营" />
+      </Transliteration>
+      <Transliteration Original="[乒]" Replacement="pīng " />
+      <Transliteration Original="[婆]" Replacement="pó " />
+      <Transliteration Original="[破迫魄]" Replacement="pò ">
+        <Exception Original="迫" Replacement="pǎi " Suffix="击" />
+        <Exception Original="魄" Replacement="bó" Prefix="落 " Suffix="" />
+        <Exception Original="魄" Replacement="tuò" Prefix="落 " Suffix="" />
+      </Transliteration>
+      <Transliteration Original="[颇坡泼]" Replacement="pō " />
+      <Transliteration Original="[剖]" Replacement="pōu " />
+      <Transliteration Original="[菩葡蒲]" Replacement="pú " />
+      <Transliteration Original="[瀑]" Replacement="pù " />
+      <Transliteration Original="[普谱浦朴]" Replacement="pǔ ">
+        <Exception Original="朴" Replacement="pō " Suffix="刀" />
+        <Exception Original="朴" Replacement="pò " Suffix="树" />
+      </Transliteration>
+      <Transliteration Original="[扑铺仆]" Replacement="pū ">
+        <Exception Original="仆" Replacement="pú " Suffix="人" />
+        <Exception Original="铺" Replacement="pù" Prefix="卧 " Suffix="" />
+      </Transliteration>
+      <Transliteration Original="[其奇齐旗棋骑歧]" Replacement="qí ">
+        <Exception Original="骑" Replacement="jì " Prefix="乘" />
+      </Transliteration>
+      <Transliteration Original="[气器汽弃契泣迄]" Replacement="qì ">
+        <Exception Original="契" Replacement="qiè " Suffix="阔" />
+      </Transliteration>
+      <Transliteration Original="[起企启岂乞]" Replacement="qǐ " />
+      <Transliteration Original="[期七妻欺戚凄漆]" Replacement="qī " />
+      <Transliteration Original="[恰]" Replacement="qià " />
+      <Transliteration Original="[前钱潜乾]" Replacement="qián " />
+      <Transliteration Original="[欠歉嵌]" Replacement="qiàn " />
+      <Transliteration Original="[浅遣谴]" Replacement="qiǎn " />
+      <Transliteration Original="[千签牵迁谦铅]" Replacement="qiān " />
+      <Transliteration Original="[强墙]" Replacement="qiáng ">
+        <Exception Original="强" Replacement="jiàng " Prefix="倔" />
+      </Transliteration>
+      <Transliteration Original="[抢]" Replacement="qiǎng ">
+        <Exception Replacement="qiāng" Prefix="天 " Suffix="地" />
+      </Transliteration>
+      <Transliteration Original="[枪腔]" Replacement="qiāng ">
+        <Exception Original="枪" Replacement="chēng " Prefix="欃" />
+      </Transliteration>
+      <Transliteration Original="[瞧桥乔侨]" Replacement="qiáo " />
+      <Transliteration Original="[翘]" Replacement="qiào " />
+      <Transliteration Original="[巧]" Replacement="qiǎo " />
+      <Transliteration Original="[悄敲]" Replacement="qiāo ">
+        <Exception Original="悄" Replacement="qiǎo " Suffix="声" />
+      </Transliteration>
+      <Transliteration Original="[窃怯]" Replacement="qiè " />
+      <Transliteration Original="[且]" Replacement="qiě " />
+      <Transliteration Original="[切]" Replacement="qiē ">
+        <Exception Replacement="qiè " Prefix="一" />
+      </Transliteration>
+      <Transliteration Original="[琴秦勤擒]" Replacement="qín " />
+      <Transliteration Original="[亲侵钦]" Replacement="qīn ">
+        <Exception Original="亲" Replacement="qìng " Suffix="家" />
+      </Transliteration>
+      <Transliteration Original="[情晴]" Replacement="qíng " />
+      <Transliteration Original="[庆]" Replacement="qìng " />
+      <Transliteration Original="[请]" Replacement="qǐng " />
+      <Transliteration Original="[清青轻倾卿]" Replacement="qīng " />
+      <Transliteration Original="[穷琼]" Replacement="qióng " />
+      <Transliteration Original="[求球囚]" Replacement="qiú " />
+      <Transliteration Original="[秋丘]" Replacement="qiū " />
+      <Transliteration Original="[渠]" Replacement="qú " />
+      <Transliteration Original="[去趣]" Replacement="qù " />
+      <Transliteration Original="[取娶]" Replacement="qǔ " />
+      <Transliteration Original="[区曲屈驱趋躯]" Replacement="qū " />
+      <Transliteration Original="[全权拳泉]" Replacement="quán " />
+      <Transliteration Original="[劝券]" Replacement="quàn ">
+        <Exception Original="券" Replacement="xuàn " Prefix="拱" />
+      </Transliteration>
+      <Transliteration Original="[圈]" Replacement="quān " />
+      <Transliteration Original="[却确雀]" Replacement="què ">
+        <Exception Original="雀" Replacement="qiāo " Suffix="子" />
+        <Exception Original="雀" Replacement="qiǎo " Suffix="盲" />
+      </Transliteration>
+      <Transliteration Original="[缺]" Replacement="quē " />
+      <Transliteration Original="[群裙]" Replacement="qún " />
+      <Transliteration Original="[然燃]" Replacement="rán " />
+      <Transliteration Original="[染]" Replacement="rǎn " />
+      <Transliteration Original="[让]" Replacement="ràng " />
+      <Transliteration Original="[嚷壤]" Replacement="rǎng ">
+        <Exception Original="嚷" Replacement="rāng " Suffix="嚷" />
+      </Transliteration>
+      <Transliteration Original="[饶]" Replacement="ráo " />
+      <Transliteration Original="[绕]" Replacement="rào " />
+      <Transliteration Original="[扰]" Replacement="rǎo " />
+      <Transliteration Original="[热]" Replacement="rè " />
+      <Transliteration Original="[惹]" Replacement="rě " />
+      <Transliteration Original="[人仁]" Replacement="rén " />
+      <Transliteration Original="[任认刃]" Replacement="rèn " />
+      <Transliteration Original="[忍]" Replacement="rěn " />
+      <Transliteration Original="[仍]" Replacement="réng " />
+      <Transliteration Original="[扔]" Replacement="rēng " />
+      <Transliteration Original="[日]" Replacement="rì " />
+      <Transliteration Original="[容荣蓉融绒熔溶]" Replacement="róng " />
+      <Transliteration Original="[柔揉]" Replacement="róu " />
+      <Transliteration Original="[肉]" Replacement="ròu " />
+      <Transliteration Original="[如儒]" Replacement="rú " />
+      <Transliteration Original="[入]" Replacement="rù " />
+      <Transliteration Original="[辱乳汝]" Replacement="rǔ " />
+      <Transliteration Original="[软]" Replacement="ruǎn " />
+      <Transliteration Original="[瑞锐]" Replacement="ruì " />
+      <Transliteration Original="[润]" Replacement="rùn " />
+      <Transliteration Original="[若弱]" Replacement="ruò ">
+        <Exception Original="若" Replacement="rě " Prefix="般" />
+      </Transliteration>
+      <Transliteration Original="[萨]" Replacement="sà " />
+      <Transliteration Original="[洒]" Replacement="sǎ ">
+        <Exception Replacement="xiǎn " Suffix="如" />
+      </Transliteration>
+      <Transliteration Original="[撒]" Replacement="sā " />
+      <Transliteration Original="[赛]" Replacement="sài " />
+      <Transliteration Original="[塞]" Replacement="sāi ">
+        <Exception Replacement="sè " Prefix="堵" />
+      </Transliteration>
+      <Transliteration Original="[散]" Replacement="sàn " />
+      <Transliteration Original="[伞]" Replacement="sǎn " />
+      <Transliteration Original="[三]" Replacement="sān " />
+      <Transliteration Original="[丧]" Replacement="sàng ">
+        <Exception Replacement="sāng " Suffix="事" />
+      </Transliteration>
+      <Transliteration Original="[嗓]" Replacement="sǎng " />
+      <Transliteration Original="[桑]" Replacement="sāng " />
+      <Transliteration Original="[扫嫂]" Replacement="sǎo ">
+        <Exception Original="扫" Replacement="sào " Suffix="帚" />
+      </Transliteration>
+      <Transliteration Original="[骚]" Replacement="sāo " />
+      <Transliteration Original="[色瑟]" Replacement="sè " />
+      <Transliteration Original="[森]" Replacement="sēn " />
+      <Transliteration Original="[僧]" Replacement="sēng " />
+      <Transliteration Original="[啥]" Replacement="shá " />
+      <Transliteration Original="[厦煞]" Replacement="shà ">
+        <Exception Original="厦" Replacement="xià " Suffix="门" />
+      </Transliteration>
+      <Transliteration Original="[傻]" Replacement="shǎ " />
+      <Transliteration Original="[杀沙莎刹纱]" Replacement="shā ">
+        <Exception Original="刹" Replacement="chà " Suffix="那" />
+        <Exception Original="莎" Replacement="suō " Prefix="摩" />
+      </Transliteration>
+      <Transliteration Original="[晒]" Replacement="shài " />
+      <Transliteration Original="[善扇]" Replacement="shàn " />
+      <Transliteration Original="[闪陕]" Replacement="shǎn " />
+      <Transliteration Original="[山衫珊杉]" Replacement="shān ">
+        <Exception Original="杉" Replacement="shā " Suffix="篙" />
+      </Transliteration>
+      <Transliteration Original="[上尚]" Replacement="shàng ">
+        <Exception Original="上" Replacement="shǎng " Suffix="声" />
+        <Exception Original="尚" Replacement="shang " Prefix="和" />
+      </Transliteration>
+      <Transliteration Original="[赏晌]" Replacement="shǎng " />
+      <Transliteration Original="[商伤]" Replacement="shāng " />
+      <Transliteration Original="[绍哨邵]" Replacement="shào " />
+      <Transliteration Original="[少]" Replacement="shǎo ">
+        <Exception Replacement="shào " Suffix="年" />
+      </Transliteration>
+      <Transliteration Original="[烧稍]" Replacement="shāo ">
+        <Exception Original="稍" Replacement="shào " Suffix="息" />
+      </Transliteration>
+      <Transliteration Original="[蛇舌]" Replacement="shé ">
+        <Exception Original="蛇" Replacement="yí " Prefix="委" />
+      </Transliteration>
+      <Transliteration Original="[社设射舍涉摄]" Replacement="shè ">
+        <Exception Original="舍" Replacement="shě " Suffix="不" />
+      </Transliteration>
+      <Transliteration Original="[什神]" Replacement="shén " />
+      <Transliteration Original="[甚慎]" Replacement="shèn ">
+        <Exception Original="甚" Replacement="shén " Suffix="么" />
+      </Transliteration>
+      <Transliteration Original="[审沈]" Replacement="shěn " />
+      <Transliteration Original="[身深伸申绅]" Replacement="shēn " />
+      <Transliteration Original="[绳]" Replacement="shéng " />
+      <Transliteration Original="[胜圣剩]" Replacement="shèng " />
+      <Transliteration Original="[省]" Replacement="shěng ">
+        <Exception Replacement="xǐng " Prefix="反" />
+      </Transliteration>
+      <Transliteration Original="[生声升牲]" Replacement="shēng " />
+      <Transliteration Original="[匙]" Replacement="shi " />
+      <Transliteration Original="[时十实识石食拾蚀]" Replacement="shí ">
+        <Exception Original="拾" Replacement="shè " Suffix="级" />
+      </Transliteration>
+      <Transliteration Original="[是事世市士式视示势室试适释氏侍饰逝誓]" Replacement="shì ">
+        <Exception Original="氏" Replacement="zhī " Prefix="月" />
+        <Exception Original="适" Replacement="dí " Suffix="从" />
+      </Transliteration>
+      <Transliteration Original="[使始史驶]" Replacement="shǐ " />
+      <Transliteration Original="[师失诗施尸湿狮]" Replacement="shī " />
+      <Transliteration Original="[受授售瘦寿兽]" Replacement="shòu " />
+      <Transliteration Original="[手首守]" Replacement="shǒu " />
+      <Transliteration Original="[收]" Replacement="shōu " />
+      <Transliteration Original="[熟]" Replacement="shú " />
+      <Transliteration Original="[数术树述束竖]" Replacement="shù ">
+        <Exception Original="术" Replacement="zhú " Suffix="酒" />
+      </Transliteration>
+      <Transliteration Original="[属署鼠暑]" Replacement="shǔ " />
+      <Transliteration Original="[书输叔舒殊疏抒梳蔬淑枢]" Replacement="shū " />
+      <Transliteration Original="[耍]" Replacement="shuǎ " />
+      <Transliteration Original="[刷]" Replacement="shuā ">
+        <Exception Replacement="shuà " Suffix="选" />
+      </Transliteration>
+      <Transliteration Original="[帅]" Replacement="shuài " />
+      <Transliteration Original="[甩]" Replacement="shuǎi " />
+      <Transliteration Original="[摔衰]" Replacement="shuāi ">
+        <Exception Original="衰" Replacement="cuī " Prefix="等" />
+      </Transliteration>
+      <Transliteration Original="[爽]" Replacement="shuǎng " />
+      <Transliteration Original="[双霜]" Replacement="shuāng " />
+      <Transliteration Original="[谁]" Replacement="shuí " />
+      <Transliteration Original="[睡税]" Replacement="shuì " />
+      <Transliteration Original="[水]" Replacement="shuǐ " />
+      <Transliteration Original="[顺瞬]" Replacement="shùn " />
+      <Transliteration Original="[硕烁]" Replacement="shuò " />
+      <Transliteration Original="[说]" Replacement="shuō ">
+        <Exception Replacement="shuì " Prefix="游" />
+      </Transliteration>
+      <Transliteration Original="[四似寺肆]" Replacement="sì ">
+        <Exception Original="似" Replacement="shì " Suffix="的" />
+      </Transliteration>
+      <Transliteration Original="[死]" Replacement="sǐ " />
+      <Transliteration Original="[司思斯丝私撕]" Replacement="sī ">
+        <Exception Original="思" Replacement="sāi " Prefix="于" />
+        <Exception Original="思" Replacement="si " Prefix="意" />
+        <Exception Original="撕" Replacement="xī " Prefix="提" />
+      </Transliteration>
+      <Transliteration Original="[送宋颂诵讼]" Replacement="sòng " />
+      <Transliteration Original="[耸]" Replacement="sǒng " />
+      <Transliteration Original="[松嵩]" Replacement="sōng " />
+      <Transliteration Original="[搜艘]" Replacement="sōu " />
+      <Transliteration Original="[俗]" Replacement="sú " />
+      <Transliteration Original="[诉速素宿肃塑]" Replacement="sù ">
+        <Exception Original="宿" Replacement="xiǔ " Prefix="一" />
+      </Transliteration>
+      <Transliteration Original="[苏稣]" Replacement="sū " />
+      <Transliteration Original="[算]" Replacement="suàn " />
+      <Transliteration Original="[酸]" Replacement="suān " />
+      <Transliteration Original="[随]" Replacement="suí " />
+      <Transliteration Original="[岁碎遂]" Replacement="suì ">
+        <Exception Original="遂" Replacement="suí " Prefix="不" />
+      </Transliteration>
+      <Transliteration Original="[虽]" Replacement="suī " />
+      <Transliteration Original="[损]" Replacement="sǔn " />
+      <Transliteration Original="[孙]" Replacement="sūn " />
+      <Transliteration Original="[所索锁]" Replacement="suǒ " />
+      <Transliteration Original="[缩嗦]" Replacement="suō " />
+      <Transliteration Original="[踏拓]" Replacement="tà " />
+      <Transliteration Original="[塔]" Replacement="tǎ ">
+        <Exception Replacement="da" Prefix="圪 " Suffix=";" />
+      </Transliteration>
+      <Transliteration Original="[他她它塌]" Replacement="tā " />
+      <Transliteration Original="[台抬]" Replacement="tái ">
+        <Exception Original="台" Replacement="tāi " Prefix="天" />
+      </Transliteration>
+      <Transliteration Original="[太态泰]" Replacement="tài " />
+      <Transliteration Original="[胎]" Replacement="tāi " />
+      <Transliteration Original="[谈坛谭潭]" Replacement="tán " />
+      <Transliteration Original="[探叹炭]" Replacement="tàn " />
+      <Transliteration Original="[坦毯]" Replacement="tǎn " />
+      <Transliteration Original="[贪摊滩]" Replacement="tān " />
+      <Transliteration Original="[堂唐糖塘膛]" Replacement="táng ">
+        <Exception Original="堂" Replacement="tāng" Prefix="亮 " Suffix="堂" />
+      </Transliteration>
+      <Transliteration Original="[趟烫]" Replacement="tàng " />
+      <Transliteration Original="[倘躺淌]" Replacement="tǎng " />
+      <Transliteration Original="[汤]" Replacement="tāng ">
+        <Exception Replacement="shāng " Suffix="汤" />
+      </Transliteration>
+      <Transliteration Original="[逃桃陶萄淘]" Replacement="táo " />
+      <Transliteration Original="[套]" Replacement="tào " />
+      <Transliteration Original="[讨]" Replacement="tǎo " />
+      <Transliteration Original="[涛掏滔]" Replacement="tāo " />
+      <Transliteration Original="[特]" Replacement="tè " />
+      <Transliteration Original="[腾疼藤]" Replacement="téng " />
+      <Transliteration Original="[提题]" Replacement="tí ">
+        <Exception Original="提" Replacement="dī " Suffix="防" />
+      </Transliteration>
+      <Transliteration Original="[替]" Replacement="tì " />
+      <Transliteration Original="[体]" Replacement="tǐ ">
+        <Exception Replacement="tī " Suffix="己" />
+      </Transliteration>
+      <Transliteration Original="[踢梯]" Replacement="tī " />
+      <Transliteration Original="[田甜填]" Replacement="tián " />
+      <Transliteration Original="[天添]" Replacement="tiān " />
+      <Transliteration Original="[条]" Replacement="tiáo " />
+      <Transliteration Original="[跳]" Replacement="tiào " />
+      <Transliteration Original="[挑]" Replacement="tiāo ">
+        <Exception Replacement="tāo " Suffix="达" />
+        <Exception Replacement="tiǎo " Suffix="战" />
+      </Transliteration>
+      <Transliteration Original="[铁]" Replacement="tiě " />
+      <Transliteration Original="[贴]" Replacement="tiē " />
+      <Transliteration Original="[停庭亭廷]" Replacement="tíng " />
+      <Transliteration Original="[挺艇]" Replacement="tǐng " />
+      <Transliteration Original="[听厅]" Replacement="tīng " />
+      <Transliteration Original="[同童铜桐]" Replacement="tóng ">
+        <Exception Original="同" Replacement="tòng " Prefix="胡" />
+      </Transliteration>
+      <Transliteration Original="[痛]" Replacement="tòng " />
+      <Transliteration Original="[统桶筒]" Replacement="tǒng " />
+      <Transliteration Original="[通]" Replacement="tōng " />
+      <Transliteration Original="[头投]" Replacement="tóu ">
+        <Exception Original="头" Replacement="tou " Prefix="石" />
+      </Transliteration>
+      <Transliteration Original="[透]" Replacement="tòu " />
+      <Transliteration Original="[偷]" Replacement="tōu " />
+      <Transliteration Original="[图徒途涂屠]" Replacement="tú ">
+        <Exception Original="涂" Replacement="tū " Prefix="八" />
+        <Exception Original="涂" Replacement="tu " Prefix="糊" />
+      </Transliteration>
+      <Transliteration Original="[兔]" Replacement="tù " />
+      <Transliteration Original="[土吐]" Replacement="tǔ ">
+        <Exception Original="吐" Replacement="tù " Prefix="呕" />
+      </Transliteration>
+      <Transliteration Original="[突秃]" Replacement="tū " />
+      <Transliteration Original="[团]" Replacement="tuán " />
+      <Transliteration Original="[退]" Replacement="tuì " />
+      <Transliteration Original="[腿]" Replacement="tuǐ " />
+      <Transliteration Original="[推]" Replacement="tuī " />
+      <Transliteration Original="[屯]" Replacement="tún " />
+      <Transliteration Original="[吞]" Replacement="tūn " />
+      <Transliteration Original="[陀]" Replacement="tuó " />
+      <Transliteration Original="[妥]" Replacement="tuǒ " />
+      <Transliteration Original="[脱托拖]" Replacement="tuō " />
+      <Transliteration Original="[哇]" Replacement="wa " />
+      <Transliteration Original="[娃]" Replacement="wá " />
+      <Transliteration Original="[瓦]" Replacement="wǎ ">
+        <Exception Replacement="wā" Prefix="蓝 " Suffix="瓦" />
+      </Transliteration>
+      <Transliteration Original="[挖]" Replacement="wā " />
+      <Transliteration Original="[外]" Replacement="wài " />
+      <Transliteration Original="[歪]" Replacement="wāi " />
+      <Transliteration Original="[完玩顽丸]" Replacement="wán " />
+      <Transliteration Original="[万腕]" Replacement="wàn ">
+        <Exception Original="万" Replacement="mò " Suffix="俟" />
+      </Transliteration>
+      <Transliteration Original="[晚碗挽婉宛]" Replacement="wǎn " />
+      <Transliteration Original="[湾弯]" Replacement="wān " />
+      <Transliteration Original="[王亡]" Replacement="wáng " />
+      <Transliteration Original="[望忘妄旺]" Replacement="wàng ">
+        <Exception Original="忘" Replacement="wáng " Suffix="八" />
+      </Transliteration>
+      <Transliteration Original="[往网枉]" Replacement="wǎng " />
+      <Transliteration Original="[汪]" Replacement="wāng " />
+      <Transliteration Original="[韦围维唯违惟]" Replacement="wéi " />
+      <Transliteration Original="[为位未卫味谓慰魏喂畏胃]" Replacement="wèi ">
+        <Exception Original="为" Replacement="wéi " Prefix="认" />
+      </Transliteration>
+      <Transliteration Original="[委伟尾伪]" Replacement="wěi ">
+        <Exception Original="委" Replacement="wēi" Prefix="与 " Suffix="蛇" />
+        <Exception Original="尾" Replacement="yǐ " Prefix="后" />
+      </Transliteration>
+      <Transliteration Original="[微威危]" Replacement="wēi " />
+      <Transliteration Original="[文闻纹]" Replacement="wén " />
+      <Transliteration Original="[问]" Replacement="wèn " />
+      <Transliteration Original="[稳吻]" Replacement="wěn " />
+      <Transliteration Original="[温]" Replacement="wēn " />
+      <Transliteration Original="[翁]" Replacement="wēng " />
+      <Transliteration Original="[握卧沃]" Replacement="wò " />
+      <Transliteration Original="[我]" Replacement="wǒ " />
+      <Transliteration Original="[窝]" Replacement="wō " />
+      <Transliteration Original="[无吴吾]" Replacement="wú ">
+        <Exception Original="无" Replacement="mó " Prefix="南" />
+      </Transliteration>
+      <Transliteration Original="[务物误悟雾勿兀]" Replacement="wù " />
+      <Transliteration Original="[五武午舞伍侮捂]" Replacement="wǔ ">
+        <Exception Original="捂" Replacement="wú" Prefix="枝 " Suffix="" />
+      </Transliteration>
+      <Transliteration Original="[屋污乌呜]" Replacement="wū " />
+      <Transliteration Original="[席习袭媳]" Replacement="xí " />
+      <Transliteration Original="[系细戏隙]" Replacement="xì " />
+      <Transliteration Original="[喜洗]" Replacement="xǐ " />
+      <Transliteration Original="[西息希吸惜析悉稀熙嘻夕牺锡膝溪昔晰粞熄]" Replacement="xī ">
+        <Exception Original="息" Replacement="xi " Prefix="消" />
+      </Transliteration>
+      <Transliteration Original="[侠霞峡狭暇]" Replacement="xiá " />
+      <Transliteration Original="[下夏吓]" Replacement="xià ">
+        <Exception Original="吓" Replacement="hè " Prefix="恐" />
+      </Transliteration>
+      <Transliteration Original="[瞎虾]" Replacement="xiā ">
+        <Exception Original="虾" Replacement="há " Suffix="蟆" />
+      </Transliteration>
+      <Transliteration Original="[闲贤嫌弦衔]" Replacement="xián " />
+      <Transliteration Original="[现线限县献陷宪羡]" Replacement="xiàn " />
+      <Transliteration Original="[显险]" Replacement="xiǎn " />
+      <Transliteration Original="[先鲜仙掀纤]" Replacement="xiān ">
+        <Exception Original="鲜" Replacement="xiǎn " Prefix="朝" />
+      </Transliteration>
+      <Transliteration Original="[详祥翔]" Replacement="xiáng " />
+      <Transliteration Original="[向象像项巷橡]" Replacement="xiàng ">
+        <Exception Original="巷" Replacement="hàng " Suffix="道" />
+      </Transliteration>
+      <Transliteration Original="[想响享]" Replacement="xiǎng " />
+      <Transliteration Original="[相香乡箱襄湘厢镶]" Replacement="xiāng " />
+      <Transliteration Original="[笑校效肖孝啸]" Replacement="xiào ">
+        <Exception Original="校" Replacement="jiào" Prefix="= " Suffix="对" />
+      </Transliteration>
+      <Transliteration Original="[小晓]" Replacement="xiǎo " />
+      <Transliteration Original="[消销萧潇宵]" Replacement="xiāo " />
+      <Transliteration Original="[协鞋斜邪胁携谐]" Replacement="xié " />
+      <Transliteration Original="[谢泄械屑卸泻]" Replacement="xiè ">
+        <Exception Original="泄" Replacement="yì " Suffix="沓" />
+      </Transliteration>
+      <Transliteration Original="[写]" Replacement="xiě ">
+        <Exception Replacement="xiè " Suffix="意" />
+      </Transliteration>
+      <Transliteration Original="[些歇]" Replacement="xiē " />
+      <Transliteration Original="[信]" Replacement="xìn " />
+      <Transliteration Original="[心新辛欣芯薪馨]" Replacement="xīn ">
+        <Exception Original="芯" Replacement="xìn " Prefix="岩" />
+      </Transliteration>
+      <Transliteration Original="[行形型刑]" Replacement="xíng ">
+        <Exception Original="行" Replacement="hàng" Prefix="树 " Suffix="子" />
+        <Exception Original="行" Replacement="háng " Prefix="银" />
+      </Transliteration>
+      <Transliteration Original="[性兴姓幸杏]" Replacement="xìng ">
+        <Exception Original="兴" Replacement="xīng " Suffix="奋" />
+      </Transliteration>
+      <Transliteration Original="[醒]" Replacement="xǐng " />
+      <Transliteration Original="[星腥]" Replacement="xīng " />
+      <Transliteration Original="[雄熊]" Replacement="xióng " />
+      <Transliteration Original="[兄胸凶汹]" Replacement="xiōng " />
+      <Transliteration Original="[秀袖绣]" Replacement="xiù " />
+      <Transliteration Original="[朽]" Replacement="xiǔ " />
+      <Transliteration Original="[修休羞]" Replacement="xiū " />
+      <Transliteration Original="[徐]" Replacement="xú " />
+      <Transliteration Original="[续序绪蓄叙畜婿]" Replacement="xù ">
+        <Exception Original="畜" Replacement="chù " Suffix="生" />
+      </Transliteration>
+      <Transliteration Original="[许]" Replacement="xǔ ">
+        <Exception Replacement="hǔ " Prefix="邪" />
+      </Transliteration>
+      <Transliteration Original="[需须虚]" Replacement="xū " />
+      <Transliteration Original="[玄旋悬]" Replacement="xuán " />
+      <Transliteration Original="[选]" Replacement="xuǎn " />
+      <Transliteration Original="[宣喧]" Replacement="xuān " />
+      <Transliteration Original="[学穴]" Replacement="xué " />
+      <Transliteration Original="[血]" Replacement="xuè " />
+      <Transliteration Original="[雪]" Replacement="xuě " />
+      <Transliteration Original="[削薛]" Replacement="xuē ">
+        <Exception Original="削" Replacement="xiāo " Prefix="切" />
+      </Transliteration>
+      <Transliteration Original="[寻询巡循旬]" Replacement="xún ">
+        <Exception Original="寻" Replacement="xín " Suffix="思" />
+      </Transliteration>
+      <Transliteration Original="[讯训迅逊]" Replacement="xùn " />
+      <Transliteration Original="[呀]" Replacement="ya " />
+      <Transliteration Original="[牙崖涯]" Replacement="yá " />
+      <Transliteration Original="[亚讶]" Replacement="yà " />
+      <Transliteration Original="[雅哑]" Replacement="yǎ " />
+      <Transliteration Original="[压押丫鸭鸦]" Replacement="yā ">
+        <Exception Original="压" Replacement="yà " Suffix="根" />
+      </Transliteration>
+      <Transliteration Original="[言研严延沿颜岩炎盐]" Replacement="yán " />
+      <Transliteration Original="[验燕厌咽艳宴雁焰彦]" Replacement="yàn ">
+        <Exception Original="咽" Replacement="yè " Prefix="呜" />
+      </Transliteration>
+      <Transliteration Original="[眼演掩]" Replacement="yǎn " />
+      <Transliteration Original="[烟嫣淹焉]" Replacement="yān " />
+      <Transliteration Original="[阳杨洋扬羊]" Replacement="yáng ">
+        <Exception Original="洋" Replacement="yāng" Prefix="暖 " Suffix="洋" />
+      </Transliteration>
+      <Transliteration Original="[样]" Replacement="yàng " />
+      <Transliteration Original="[养仰痒]" Replacement="yǎng " />
+      <Transliteration Original="[央]" Replacement="yāng " />
+      <Transliteration Original="[摇遥姚窑谣]" Replacement="yáo " />
+      <Transliteration Original="[要药耀]" Replacement="yào ">
+        <Exception Original="要" Replacement="yāo " Suffix="求" />
+      </Transliteration>
+      <Transliteration Original="[咬]" Replacement="yǎo " />
+      <Transliteration Original="[腰邀妖]" Replacement="yāo " />
+      <Transliteration Original="[爷耶]" Replacement="yé ">
+        <Exception Original="耶" Replacement="yē " Suffix="稣" />
+      </Transliteration>
+      <Transliteration Original="[业夜叶页液]" Replacement="yè " />
+      <Transliteration Original="[也野冶]" Replacement="yě " />
+      <Transliteration Original="[疑移遗仪宜姨夷]" Replacement="yí ">
+        <Exception Original="宜" Replacement="yi " Prefix="便" />
+      </Transliteration>
+      <Transliteration Original="[意义议易异艺亿益亦忆译谊翼役抑毅逸裔溢疫]" Replacement="yì " />
+      <Transliteration Original="[以已椅倚矣乙]" Replacement="yǐ " />
+      <Transliteration Original="[一衣医依伊]" Replacement="yī ">
+        <Exception Original="一" Replacement="yí " Suffix="个" />
+        <Exception Original="一" Replacement="yì " Suffix="点" />
+      </Transliteration>
+      <Transliteration Original="[银吟淫]" Replacement="yín ">
+        <Exception Original="吟" Replacement="yīn" Prefix="笑 " Suffix="吟" />
+      </Transliteration>
+      <Transliteration Original="[印荫]" Replacement="yìn " />
+      <Transliteration Original="[引隐饮尹]" Replacement="yǐn " />
+      <Transliteration Original="[因音阴殷姻]" Replacement="yīn ">
+        <Exception Original="殷" Replacement="yān" Prefix="= " Suffix="红" />
+      </Transliteration>
+      <Transliteration Original="[营迎盈赢]" Replacement="yíng " />
+      <Transliteration Original="[硬映]" Replacement="yìng " />
+      <Transliteration Original="[影颖]" Replacement="yǐng " />
+      <Transliteration Original="[应英鹰婴]" Replacement="yīng ">
+        <Exception Original="应" Replacement="yìng " Suffix="用" />
+      </Transliteration>
+      <Transliteration Original="[哟]" Replacement="yō " />
+      <Transliteration Original="[用]" Replacement="yòng " />
+      <Transliteration Original="[永勇涌泳]" Replacement="yǒng " />
+      <Transliteration Original="[拥庸佣]" Replacement="yōng ">
+        <Exception Original="佣" Replacement="yòng" Prefix="= " Suffix="金" />
+      </Transliteration>
+      <Transliteration Original="[由游油邮犹尤]" Replacement="yóu ">
+        <Exception Original="油" Replacement="yōu" Prefix="绿 " Suffix="油" />
+      </Transliteration>
+      <Transliteration Original="[又右幼诱]" Replacement="yòu " />
+      <Transliteration Original="[有友]" Replacement="yǒu " />
+      <Transliteration Original="[优忧幽悠]" Replacement="yōu " />
+      <Transliteration Original="[于余鱼渔愚俞愉娱舆]" Replacement="yú " />
+      <Transliteration Original="[育遇玉预欲域誉狱愈御郁豫吁寓浴裕喻]" Replacement="yù ">
+        <Exception Original="吁" Replacement="xū " Suffix="吁" />
+        <Exception Original="育" Replacement="yō " Prefix="杭" />
+      </Transliteration>
+      <Transliteration Original="[与语雨予宇羽]" Replacement="yǔ ">
+        <Exception Original="与" Replacement="yù " Prefix="参" />
+      </Transliteration>
+      <Transliteration Original="[於]" Replacement="yū " />
+      <Transliteration Original="[员原元园源圆袁缘援]" Replacement="yuán " />
+      <Transliteration Original="[院愿怨]" Replacement="yuàn " />
+      <Transliteration Original="[远]" Replacement="yuǎn " />
+      <Transliteration Original="[冤渊]" Replacement="yuān " />
+      <Transliteration Original="[月越跃阅岳悦]" Replacement="yuè " />
+      <Transliteration Original="[约曰]" Replacement="yuē " />
+      <Transliteration Original="[云匀]" Replacement="yún " />
+      <Transliteration Original="[运韵孕蕴]" Replacement="yùn " />
+      <Transliteration Original="[允]" Replacement="yǔn " />
+      <Transliteration Original="[晕]" Replacement="yūn ">
+        <Exception Replacement="yùn " Prefix="红" />
+      </Transliteration>
+      <Transliteration Original="[杂砸]" Replacement="zá ">
+        <Exception Original="杂" Replacement="zā " Prefix="拉" />
+      </Transliteration>
+      <Transliteration Original="[咋]" Replacement="zǎ ">
+        <Exception Replacement="zhā " Suffix="呼" />
+        <Exception Replacement="zhà " Suffix="舌" />
+      </Transliteration>
+      <Transliteration Original="[在再载]" Replacement="zài ">
+        <Exception Original="载" Replacement="zǎi " Prefix="记" />
+      </Transliteration>
+      <Transliteration Original="[宰]" Replacement="zǎi " />
+      <Transliteration Original="[灾]" Replacement="zāi " />
+      <Transliteration Original="[咱]" Replacement="zán " />
+      <Transliteration Original="[赞暂]" Replacement="zàn " />
+      <Transliteration Original="[葬]" Replacement="zàng " />
+      <Transliteration Original="[脏]" Replacement="zāng ">
+        <Exception Replacement="zàng " Prefix="心" />
+      </Transliteration>
+      <Transliteration Original="[造躁灶燥噪]" Replacement="zào " />
+      <Transliteration Original="[早]" Replacement="zǎo " />
+      <Transliteration Original="[遭糟]" Replacement="zāo " />
+      <Transliteration Original="[则泽责择]" Replacement="zé " />
+      <Transliteration Original="[贼]" Replacement="zéi " />
+      <Transliteration Original="[怎]" Replacement="zěn " />
+      <Transliteration Original="[赠]" Replacement="zèng " />
+      <Transliteration Original="[增]" Replacement="zēng " />
+      <Transliteration Original="[炸诈]" Replacement="zhà " />
+      <Transliteration Original="[眨]" Replacement="zhǎ " />
+      <Transliteration Original="[扎]" Replacement="zhā ">
+        <Exception Replacement="zā" Prefix="包 " Suffix="" />
+        <Exception Replacement="zhá " Prefix="挣" />
+      </Transliteration>
+      <Transliteration Original="[宅]" Replacement="zhái " />
+      <Transliteration Original="[债寨]" Replacement="zhài " />
+      <Transliteration Original="[摘斋]" Replacement="zhāi " />
+      <Transliteration Original="[战站]" Replacement="zhàn " />
+      <Transliteration Original="[展斩崭]" Replacement="zhǎn " />
+      <Transliteration Original="[占沾粘]" Replacement="zhān ">
+        <Exception Original="占" Replacement="zhàn " Suffix="领" />
+      </Transliteration>
+      <Transliteration Original="[丈帐仗障杖胀账]" Replacement="zhàng " />
+      <Transliteration Original="[掌涨]" Replacement="zhǎng " />
+      <Transliteration Original="[张章彰]" Replacement="zhāng " />
+      <Transliteration Original="[照赵召兆罩]" Replacement="zhào " />
+      <Transliteration Original="[找爪]" Replacement="zhǎo ">
+        <Exception Original="爪" Replacement="zhuǎ " Suffix="子" />
+      </Transliteration>
+      <Transliteration Original="[招昭]" Replacement="zhāo " />
+      <Transliteration Original="[着]" Replacement="zhe " />
+      <Transliteration Original="[折哲]" Replacement="zhé " />
+      <Transliteration Original="[这浙]" Replacement="zhè " />
+      <Transliteration Original="[者]" Replacement="zhě " />
+      <Transliteration Original="[遮]" Replacement="zhē " />
+      <Transliteration Original="[阵镇震振圳]" Replacement="zhèn " />
+      <Transliteration Original="[诊枕]" Replacement="zhěn " />
+      <Transliteration Original="[真针珍侦贞]" Replacement="zhēn " />
+      <Transliteration Original="[正政证郑挣症]" Replacement="zhèng ">
+        <Exception Original="挣" Replacement="zhēng " Suffix="扎" />
+        <Exception Original="正" Replacement="zhēng " Suffix="月" />
+        <Exception Original="症" Replacement="zhēng " Suffix="结" />
+      </Transliteration>
+      <Transliteration Original="[整]" Replacement="zhěng " />
+      <Transliteration Original="[争征睁怔蒸]" Replacement="zhēng ">
+        <Exception Original="怔" Replacement="zhèng " Prefix="發" />
+      </Transliteration>
+      <Transliteration Original="[直职值执植殖侄]" Replacement="zhí ">
+        <Exception Original="殖" Replacement="shi " Prefix="骨" />
+      </Transliteration>
+      <Transliteration Original="[制至治志质致置智掷秩滞稚帜]" Replacement="zhì " />
+      <Transliteration Original="[只指止纸址旨芷]" Replacement="zhǐ " />
+      <Transliteration Original="[之知支织枝芝肢汁脂]" Replacement="zhī " />
+      <Transliteration Original="[重众仲]" Replacement="zhòng " />
+      <Transliteration Original="[种肿]" Replacement="zhǒng " />
+      <Transliteration Original="[中终钟忠衷]" Replacement="zhōng " />
+      <Transliteration Original="[轴]" Replacement="zhóu " />
+      <Transliteration Original="[皱宙骤昼]" Replacement="zhòu " />
+      <Transliteration Original="[周州洲舟粥]" Replacement="zhōu " />
+      <Transliteration Original="[逐竹烛]" Replacement="zhú " />
+      <Transliteration Original="[住注著助驻筑祝柱铸]" Replacement="zhù " />
+      <Transliteration Original="[主嘱煮]" Replacement="zhǔ " />
+      <Transliteration Original="[朱诸珠猪株蛛]" Replacement="zhū " />
+      <Transliteration Original="[抓]" Replacement="zhuā " />
+      <Transliteration Original="[赚撰]" Replacement="zhuàn " />
+      <Transliteration Original="[转]" Replacement="zhuǎn ">
+        <Exception Replacement="zhuǎi " Suffix="文" />
+      </Transliteration>
+      <Transliteration Original="[专砖]" Replacement="zhuān " />
+      <Transliteration Original="[状撞壮幢]" Replacement="zhuàng " />
+      <Transliteration Original="[装庄妆桩]" Replacement="zhuāng " />
+      <Transliteration Original="[坠]" Replacement="zhuì " />
+      <Transliteration Original="[追]" Replacement="zhuī " />
+      <Transliteration Original="[准]" Replacement="zhǔn " />
+      <Transliteration Original="[卓]" Replacement="zhuó " />
+      <Transliteration Original="[桌捉]" Replacement="zhuō " />
+      <Transliteration Original="[自字]" Replacement="zì " />
+      <Transliteration Original="[子紫姊仔]" Replacement="zǐ ">
+        <Exception Original="仔" Replacement="zī " Suffix="肩" />
+        <Exception Original="子" Replacement="zi " Prefix="桌" />
+      </Transliteration>
+      <Transliteration Original="[资姿滋咨兹]" Replacement="zī ">
+        <Exception Original="兹" Replacement="cí" Prefix="龟 " Suffix="" />
+      </Transliteration>
+      <Transliteration Original="[纵]" Replacement="zòng " />
+      <Transliteration Original="[总]" Replacement="zǒng " />
+      <Transliteration Original="[宗踪综]" Replacement="zōng " />
+      <Transliteration Original="[奏]" Replacement="zòu " />
+      <Transliteration Original="[走]" Replacement="zǒu " />
+      <Transliteration Original="[足族]" Replacement="zú " />
+      <Transliteration Original="[组祖阻]" Replacement="zǔ " />
+      <Transliteration Original="[租]" Replacement="zū " />
+      <Transliteration Original="[钻]" Replacement="zuān " />
+      <Transliteration Original="[最罪醉]" Replacement="zuì " />
+      <Transliteration Original="[嘴]" Replacement="zuǐ " />
+      <Transliteration Original="[尊遵]" Replacement="zūn " />
+      <Transliteration Original="[昨琢]" Replacement="zuó ">
+        <Exception Original="琢" Replacement="zhuó " Suffix="磨" />
+      </Transliteration>
+      <Transliteration Original="[作做坐座]" Replacement="zuò ">
+        <Exception Original="作" Replacement="zuó " Suffix="践" />
+      </Transliteration>
+      <Transliteration Original="[左佐]" Replacement="zuǒ " />
+      <Transliteration Original="[，、]" Replacement=", " />
+      <Transliteration Original="。" Replacement=". " />
+      <Transliteration Original="！" Replacement="! " />
+      <Transliteration Original="？" Replacement="? " />
+      <Transliteration Original="：" Replacement=": " />
+      <Transliteration Original="；" Replacement="; " />
+      <Transliteration Original="（" Replacement=" (" />
+      <Transliteration Original="）" Replacement=") " />
+      <Transliteration Original="“" Replacement="&quot;" />
+    </Romanization>
+    <IPA>
+      <!-- Finals -->
+      <Transcription Original="[āáǎàa]i" Replacement="aɪ">
+        <Exception Original="ā" Replacement="aɪ˥" />
+        <Exception Original="á" Replacement="aɪ˧&#8203;˥" />
+        <Exception Original="ǎ" Replacement="aɪ˨&#8203;˩&#8203;˦" />
+        <Exception Original="à" Replacement="aɪ˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="[āáǎàa]ng" Replacement="ɑŋ">
+        <Exception Original="ā" Replacement="ɑŋ˥" />
+        <Exception Original="á" Replacement="ɑŋ˧&#8203;˥" />
+        <Exception Original="ǎ" Replacement="ɑŋ˨&#8203;˩&#8203;˦" />
+        <Exception Original="à" Replacement="ɑŋ˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="[āáǎàa]n" Replacement="an">
+        <Exception Original="ā" Replacement="an˥" />
+        <Exception Original="á" Replacement="an˧&#8203;˥" />
+        <Exception Original="ǎ" Replacement="an˨&#8203;˩&#8203;˦" />
+        <Exception Original="à" Replacement="an˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="[āáǎàa]o" Replacement="ɑʊ">
+        <Exception Original="ā" Replacement="ɑʊ˥" />
+        <Exception Original="á" Replacement="ɑʊ˧&#8203;˥" />
+        <Exception Original="ǎ" Replacement="ɑʊ˨&#8203;˩&#8203;˦" />
+        <Exception Original="à" Replacement="ɑʊ˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="[āáǎàa]" Replacement="ɑ">
+        <Exception Original="ā" Replacement="ɑ˥" />
+        <Exception Original="á" Replacement="ɑ˧&#8203;˥" />
+        <Exception Original="ǎ" Replacement="ɑ˨&#8203;˩&#8203;˦" />
+        <Exception Original="à" Replacement="ɑ˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="[ēéěèe]i" Replacement="eɪ">
+        <Exception Original="ē" Replacement="eɪ˥" />
+        <Exception Original="é" Replacement="eɪ˧&#8203;˥" />
+        <Exception Original="ě" Replacement="eɪ˨&#8203;˩&#8203;˦" />
+        <Exception Original="è" Replacement="eɪ˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="[ēéěèe]ng" Replacement="əŋ">
+        <Exception Original="ē" Replacement="əŋ˥" />
+        <Exception Original="é" Replacement="əŋ˧&#8203;˥" />
+        <Exception Original="ě" Replacement="əŋ˨&#8203;˩&#8203;˦" />
+        <Exception Original="è" Replacement="əŋ˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="[ēéěèe]n" Replacement="ən">
+        <Exception Original="ē" Replacement="ən˥" />
+        <Exception Original="é" Replacement="ən˧&#8203;˥" />
+        <Exception Original="ě" Replacement="ən˨&#8203;˩&#8203;˦" />
+        <Exception Original="è" Replacement="ən˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="[ēéěèe]r" Replacement="ɑɻ">
+        <Exception Original="ē" Replacement="ɑɻ˥" />
+        <Exception Original="é" Replacement="ɑɻ˧&#8203;˥" />
+        <Exception Original="ě" Replacement="ɑɻ˨&#8203;˩&#8203;˦" />
+        <Exception Original="è" Replacement="ɑɻ˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="[ēéěèe]" Replacement="ɤ">
+        <Exception Original="ē" Replacement="ɤ˥" />
+        <Exception Original="é" Replacement="ɤ˧&#8203;˥" />
+        <Exception Original="ě" Replacement="ɤ˨&#8203;˩&#8203;˦" />
+        <Exception Original="è" Replacement="ɤ˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="[iy][āáǎàa]ng" Replacement="iɑŋ">
+        <Exception Original="[iy]ā" Replacement="iɑŋ˥" />
+        <Exception Original="[iy]á" Replacement="iɑŋ˧&#8203;˥" />
+        <Exception Original="[iy]ǎ" Replacement="iɑŋ˨&#8203;˩˦" />
+        <Exception Original="[iy]à" Replacement="iɑŋ˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="[iy][āáǎàa]n" Replacement="iɛn">
+        <Exception Original="[iy]ā" Replacement="iɛn˥" />
+        <Exception Original="[iy]á" Replacement="iɛn˧&#8203;˥" />
+        <Exception Original="[iy]ǎ" Replacement="iɛn˨&#8203;˩&#8203;˦" />
+        <Exception Original="[iy]à" Replacement="iɛn˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="[iy][āáǎàa]o" Replacement="iɑʊ">
+        <Exception Original="[iy]ā" Replacement="iɑʊ˥" />
+        <Exception Original="[iy]á" Replacement="iɑʊ˧&#8203;˥" />
+        <Exception Original="[iy]ǎ" Replacement="iɑʊ˨&#8203;˩&#8203;˦" />
+        <Exception Original="[iy]à" Replacement="iɑʊ˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="[iy][āáǎàa]" Replacement="ia">
+        <Exception Original="[iy]ā" Replacement="ia˥" />
+        <Exception Original="[iy]á" Replacement="ia˧&#8203;˥" />
+        <Exception Original="[iy]ǎ" Replacement="ia˨&#8203;˩&#8203;˦" />
+        <Exception Original="[iy]à" Replacement="ia˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="[iy][ēéěèe]" Replacement="iɛ">
+        <Exception Original="[iy]ē" Replacement="iɛ˥" />
+        <Exception Original="[iy]é" Replacement="iɛ˧&#8203;˥" />
+        <Exception Original="[iy]ě" Replacement="iɛ˨&#8203;˩&#8203;˦" />
+        <Exception Original="[iy]è" Replacement="iɛ˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="y?[īíǐìi]ng" Replacement="iŋ">
+        <Exception Original="y?ī" Replacement="iŋ˥" />
+        <Exception Original="y?í" Replacement="iŋ˧&#8203;˥" />
+        <Exception Original="y?ǐ" Replacement="iŋ˨&#8203;˩&#8203;˦" />
+        <Exception Original="y?ì" Replacement="iŋ˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="y?[īíǐìi]n" Replacement="in">
+        <Exception Original="y?ī" Replacement="in˥" />
+        <Exception Original="y?í" Replacement="in˧&#8203;˥" />
+        <Exception Original="y?ǐ" Replacement="in˨&#8203;˩&#8203;˦" />
+        <Exception Original="y?ì" Replacement="in˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="[iy][ōóǒòo]ng" Replacement="iʊŋ">
+        <Exception Original="[iy]ō" Replacement="iʊŋ˥" />
+        <Exception Original="[iy]ó" Replacement="iʊŋ˧&#8203;˥" />
+        <Exception Original="[iy]ǒ" Replacement="iʊŋ˨&#8203;˩&#8203;˦" />
+        <Exception Original="[iy]ò" Replacement="iʊŋ˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="i[ōóǒòo]" Replacement="iɔ">
+        <Exception Original="iō" Replacement="iɔ˥" />
+        <Exception Original="ió" Replacement="iɔ˧&#8203;˥" />
+        <Exception Original="iǒ" Replacement="iɔ˨&#8203;˩&#8203;˦" />
+        <Exception Original="iò" Replacement="iɔ˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="i[ūúǔùu]|y[ōóǒòo]u" Replacement="ioʊ">
+        <Exception Original="iū|yō" Replacement="ioʊ˥" />
+        <Exception Original="iú|yó" Replacement="ioʊ˧&#8203;˥" />
+        <Exception Original="iǔ|yǒ" Replacement="ioʊ˨&#8203;˩&#8203;˦" />
+        <Exception Original="iù|yò" Replacement="ioʊ˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="[īíǐìi]" Replacement="ɨ" Prefix="[csz]h?|r">
+        <Exception Original="ī" Replacement="ɨ˥" />
+        <Exception Original="í" Replacement="ɨ˧&#8203;˥" />
+        <Exception Original="ǐ" Replacement="ɨ˨&#8203;˩&#8203;˦" />
+        <Exception Original="ì" Replacement="ɨ˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="y?[īíǐìi]" Replacement="i">
+        <Exception Original="y?ī" Replacement="i˥" />
+        <Exception Original="y?í" Replacement="i˧&#8203;˥" />
+        <Exception Original="y?ǐ" Replacement="i˨&#8203;˩&#8203;˦" />
+        <Exception Original="y?ì" Replacement="i˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="[ōóǒòo]ng|w[ēéěèe]ng" Replacement="u̯əŋ">
+        <Exception Original="ō|wē" Replacement="u̯əŋ˥" />
+        <Exception Original="ó|wé" Replacement="u̯əŋ˧&#8203;˥" />
+        <Exception Original="ǒ|wě" Replacement="u̯əŋ˨&#8203;˩&#8203;˦" />
+        <Exception Original="ò|wè" Replacement="u̯əŋ˥&#8203;˩" />
+      </Transcription>
+      <!-- [ʊŋ] -->
+      <Transcription Original="[ōóǒòo]u" Replacement="oʊ">
+        <Exception Original="ō" Replacement="oʊ˥" />
+        <Exception Original="ó" Replacement="oʊ˧&#8203;˥" />
+        <Exception Original="ǒ" Replacement="oʊ˨&#8203;˩&#8203;˦" />
+        <Exception Original="ò" Replacement="oʊ˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="[ōóǒòo]" Replacement="ɔ" Prefix="[bfmp]">
+        <Exception Original="ō" Replacement="ɔ˥" />
+        <Exception Original="ó" Replacement="ɔ˧&#8203;˥" />
+        <Exception Original="ǒ" Replacement="ɔ˨&#8203;˩&#8203;˦" />
+        <Exception Original="ò" Replacement="ɔ˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="[uw][āáǎàa]i" Replacement="uaɪ">
+        <Exception Original="[uw]ā" Replacement="uaɪ˥" />
+        <Exception Original="[uw]á" Replacement="uaɪ˧&#8203;˥" />
+        <Exception Original="[uw]ǎ" Replacement="uaɪ˨&#8203;˩&#8203;˦" />
+        <Exception Original="[uw]à" Replacement="uaɪ˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="[uw][āáǎàa]ng" Replacement="uɑŋ">
+        <Exception Original="[uw]ā" Replacement="uɑŋ˥" />
+        <Exception Original="[uw]á" Replacement="uɑŋ˧&#8203;˥" />
+        <Exception Original="[uw]ǎ" Replacement="uɑŋ˨&#8203;˩&#8203;˦" />
+        <Exception Original="[uw]à" Replacement="uɑŋ˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="[uw][āáǎàa]n" Replacement="uan">
+        <Exception Original="[uw]ā" Replacement="uan˥" />
+        <Exception Original="[uw]á" Replacement="uan˧&#8203;˥" />
+        <Exception Original="[uw]ǎ" Replacement="uan˨&#8203;˩&#8203;˦" />
+        <Exception Original="[uw]à" Replacement="uan˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="u[āáǎàa]" Replacement="uɑ">
+        <Exception Original="uā" Replacement="uɑ˥" />
+        <Exception Original="uá" Replacement="uɑ˧&#8203;˥" />
+        <Exception Original="uǎ" Replacement="uɑ˨&#8203;˩&#8203;˦" />
+        <Exception Original="uà" Replacement="uɑ˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="u[īíǐìi]|w[ēéěèe]i" Replacement="ueɪ">
+        <Exception Original="uī|wē" Replacement="ueɪ˥" />
+        <Exception Original="uí|wé" Replacement="ueɪ˧&#8203;˥" />
+        <Exception Original="uǐ|wě" Replacement="ueɪ˨&#8203;˩&#8203;˦" />
+        <Exception Original="uì|wè" Replacement="ueɪ˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="[ūúǔùu]n|w[ēéěèe]n" Replacement="uən">
+        <Exception Original="ū|wē" Replacement="uən˥" />
+        <Exception Original="ú|wé" Replacement="uən˧&#8203;˥" />
+        <Exception Original="ǔ|wě" Replacement="uən˨&#8203;˩&#8203;˦" />
+        <Exception Original="ù|wè" Replacement="uən˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="[uw][ōóǒòo]" Replacement="uɔ">
+        <Exception Original="[uw]ō" Replacement="uɔ˥" />
+        <Exception Original="[uw]ó" Replacement="uɔ˧&#8203;˥" />
+        <Exception Original="[uw]ǒ" Replacement="uɔ˨&#8203;˩&#8203;˦" />
+        <Exception Original="[uw]ò" Replacement="uɔ˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="w?[ūúǔùu]" Replacement="u">
+        <Exception Original="w?ū" Replacement="u˥" />
+        <Exception Original="w?ú" Replacement="u˧&#8203;˥" />
+        <Exception Original="w?ǔ" Replacement="u˨&#8203;˩&#8203;˦" />
+        <Exception Original="w?ù" Replacement="u˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="ü[āáǎàa]n|yu[āáǎàa]n" Replacement="yɛn">
+        <Exception Original="üā|yuā" Replacement="yɛn˥" />
+        <Exception Original="üá|yuá" Replacement="yɛn˧&#8203;˥" />
+        <Exception Original="üǎ|yuǎ" Replacement="yɛn˨&#8203;˩&#8203;˦" />
+        <Exception Original="üà|yuà" Replacement="yɛn˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="[ǖǘǚǜü]e|y[ūúǔùu]e" Replacement="yœ">
+        <Exception Original="ǖ|yū" Replacement="yœ˥" />
+        <Exception Original="ǘ|yú" Replacement="yœ˧&#8203;˥" />
+        <Exception Original="ǚ|yǔ" Replacement="yœ˨&#8203;˩&#8203;˦" />
+        <Exception Original="ǜ|yù" Replacement="yœ˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="[ǖǘǚǜü]n|y[ūúǔùu]n" Replacement="yn">
+        <Exception Original="ǖ|yū" Replacement="yn˥" />
+        <Exception Original="ǘ|yú" Replacement="yn˧&#8203;˥" />
+        <Exception Original="ǚ|yǔ" Replacement="yn˨&#8203;˩&#8203;˦" />
+        <Exception Original="ǜ|yù" Replacement="yn˥&#8203;˩" />
+      </Transcription>
+      <Transcription Original="[ǖǘǚǜü]|y[ūúǔùu]" Replacement="y">
+        <Exception Original="ǖ|yū" Replacement="y˥" />
+        <Exception Original="ǘ|yú" Replacement="y˧&#8203;˥" />
+        <Exception Original="ǚ|yǔ" Replacement="y˨&#8203;˩&#8203;˦" />
+        <Exception Original="ǜ|yù" Replacement="y˥&#8203;˩" />
+      </Transcription>
+      <!-- Initials -->
+      <Transcription Original="b" Replacement="p" />
+      <Transcription Original="ch|ĉ" Replacement="tʂʰ" />
+      <Transcription Original="sh|ŝ" Replacement="ʂ" />
+      <Transcription Original="zh|ẑ" Replacement="tʂ" />
+      <Transcription Original="c" Replacement="tsʰ" />
+      <Transcription Original="d" Replacement="t" />
+      <Transcription Original="f" Replacement="f" />
+      <Transcription Original="g" Replacement="k" />
+      <Transcription Original="h" Replacement="x" />
+      <Transcription Original="j" Replacement="tɕ" />
+      <Transcription Original="k" Replacement="kʰ" />
+      <Transcription Original="l" Replacement="l" />
+      <Transcription Original="m" Replacement="m" />
+      <Transcription Original="n" Replacement="n" />
+      <Transcription Original="p" Replacement="pʰ" />
+      <Transcription Original="q" Replacement="tɕʰ" />
+      <Transcription Original="r" Replacement="ɻ" />
+      <Transcription Original="s" Replacement="s" />
+      <Transcription Original="t" Replacement="tʰ" />
+      <Transcription Original="w" Replacement="w" />
+      <Transcription Original="x" Replacement="ɕ" />
+      <Transcription Original="y" Replacement="j" />
+      <Transcription Original="z" Replacement="ts" />
+      <!-- Cleanup -->
+      <Transcription Original="'" Replacement="" />
+    </IPA>
+  </Language>
+  <Language Name="Polish" ISO="pl" Native="Polski">
+    <IPA>
+      <!-- Vowels -->
+      <Transcription Original="a" Replacement="a" />
+      <Transcription Original="ą" Replacement="ɔ̃">
+        <Exception Replacement="ɔn" Suffix="[cćdt]" />
+        <Exception Replacement="ɔŋ" Suffix="[kg]" />
+        <Exception Replacement="ɔm" Suffix="[bp]" />
+      </Transcription>
+      <Transcription Original="e" Replacement="ɛ" />
+      <Transcription Original="ę" Replacement="ɛ̃">
+        <Exception Replacement="ɛn" Suffix="[cćdt]" />
+        <Exception Replacement="ɛŋ" Suffix="[kg]" />
+        <Exception Replacement="ɛm" Suffix="[bp]" />
+      </Transcription>
+      <Transcription Original="i" Replacement="i">
+        <Exception Replacement="ʲ" Prefix="[bdfgklmprtw]|c?h" Suffix="[aąeęioóuy]" />
+      </Transcription>
+      <Transcription Original="o" Replacement="ɔ" />
+      <Transcription Original="[uó]" Replacement="u" />
+      <Transcription Original="y" Replacement="ɨ" />
+      <!-- Voiced consonants -->
+      <Transcription Original="b" Replacement="b">
+        <Exception Replacement="p" Suffix="[^aąeęioóuy]*\s?(?:[\scćfhkpsśt]|[cs]z)[aąeęioóuy]" />
+      </Transcription>
+      <Transcription Original="dzi" Replacement="dʑ" Suffix="[aąeęioóuy]">
+        <Exception Replacement="tɕ" Suffix="[^aąeęioóuy]*\s?(?:[\scćfhkpsśt]|[cs]z)[aąeęioóuy]" />
+      </Transcription>
+      <Transcription Original="dz" Replacement="dz">
+        <Exception Replacement="ts" Suffix="[^aąeęioóuy]*\s?(?:[\scćfhkpsśt]|[cs]z)[aąeęioóuy]" />
+      </Transcription>
+      <Transcription Original="dź" Replacement="dʑ">
+        <Exception Replacement="tɕ" Suffix="[^aąeęioóuy]*\s?(?:[\scćfhkpsśt]|[cs]z)[aąeęioóuy]" />
+      </Transcription>
+      <Transcription Original="dż" Replacement="dʐ">
+        <Exception Replacement="tʂ" Suffix="[^aąeęioóuy]*\s?(?:[\scćfhkpsśt]|[cs]z)[aąeęioóuy]" />
+      </Transcription>
+      <Transcription Original="d" Replacement="d">
+        <Exception Replacement="t" Suffix="[^aąeęioóuy]*\s?(?:[\scćfhkpsśt]|[cs]z)[aąeęioóuy]" />
+      </Transcription>
+      <Transcription Original="g" Replacement="ɡ">
+        <Exception Replacement="k" Suffix="[^aąeęioóuy]*\s?(?:[\scćfhkpsśt]|[cs]z)[aąeęioóuy]" />
+      </Transcription>
+      <Transcription Original="w" Replacement="v">
+        <Exception Replacement="f" Prefix="(?:[cćfhkpsśt]|[cs]z)" Suffix="[aąeęioóuy]" />
+        <Exception Replacement="f" Suffix="[^aąeęioóuy]*\s?(?:[\scćfhkpsśt]|[cs]z)[aąeęioóuy]" />
+      </Transcription>
+      <Transcription Original="zi" Replacement="ʑ" Suffix="[aąeęioóuy]">
+        <Exception Replacement="ɕ" Suffix="[^aąeęioóuy]*\s?(?:[\scćfhkpsśt]|[cs]z)[aąeęioóuy]" />
+      </Transcription>
+      <Transcription Original="ź" Replacement="ʑ">
+        <Exception Replacement="ɕ" Suffix="[^aąeęioóuy]*\s?(?:[\scćfhkpsśt]|[cs]z)[aąeęioóuy]" />
+      </Transcription>
+      <Transcription Original="ż|rz" Replacement="ʐ">
+        <Exception Replacement="ʂ" Prefix="(?:[cćfhkpsśt]|[cs]z)" Suffix="[aąeęioóuy]" />
+        <Exception Replacement="ʂ" Suffix="[^aąeęioóuy]*\s?(?:[\scćfhkpsśt]|[cs]z)[aąeęioóuy]" />
+      </Transcription>
+      <Transcription Original="z" Replacement="z">
+        <Exception Replacement="s" Suffix="[^aąeęioóuy]*\s?(?:[\scćfhkpsśt]|[cs]z)[aąeęioóuy]" />
+      </Transcription>
+      <!-- Everything should be devoiced if consonant preceeding rz or w is devoiced -->
+      <!-- Devoiced consonants -->
+      <Transcription Original="ć" Replacement="tɕ">
+        <Exception Replacement="dʑ" Suffix="[^aąeęioóuy]*\s?(?:[\sbdgźż]|dz)(?:rz|w)?[aąeęioóuy]" />
+      </Transcription>
+      <Transcription Original="c?h" Replacement="x">
+        <Exception Replacement="ɣ" Suffix="[^aąeęioóuy]*\s?(?:[\sbdgźż]|dz)(?:rz|w)?[aąeęioóuy]" />
+      </Transcription>
+      <Transcription Original="ci" Replacement="tɕ" Suffix="[^aąeęioóuy]">
+        <Exception Replacement="dʑ" Suffix="[^aąeęioóuy]*\s?(?:[\sbdgźż]|dz)(?:rz|w)?[aąeęioóuy]" />
+      </Transcription>
+      <Transcription Original="c" Replacement="ts">
+        <Exception Replacement="dz" Suffix="[^aąeęioóuy]*\s?(?:[\sbdgźż]|dz)(?:rz|w)?[aąeęioóuy]" />
+      </Transcription>
+      <Transcription Original="cz" Replacement="tʂ">
+        <Exception Replacement="dʐ" Suffix="[^aąeęioóuy]*\s?(?:[\sbdgźż]|dz)(?:rz|w)?[aąeęioóuy]" />
+      </Transcription>
+      <Transcription Original="f" Replacement="f">
+        <Exception Replacement="v" Suffix="[^aąeęioóuy]*\s?(?:[\sbdgźż]|dz)(?:rz|w)?[aąeęioóuy]" />
+      </Transcription>
+      <Transcription Original="k" Replacement="k">
+        <Exception Replacement="g" Suffix="[^aąeęioóuy]*\s?(?:[\sbdgźż]|dz)(?:rz|w)?[aąeęioóuy]" />
+      </Transcription>
+      <Transcription Original="p" Replacement="p">
+        <Exception Replacement="b" Suffix="[^aąeęioóuy]*\s?(?:[\sbdgźż]|dz)(?:rz|w)?[aąeęioóuy]" />
+      </Transcription>
+      <Transcription Original="si" Replacement="ɕ" Suffix="[^aąeęioóuy]">
+        <Exception Replacement="ʑ" Suffix="[^aąeęioóuy]*\s?(?:[\sbdgźż]|dz)(?:rz|w)?[aąeęioóuy]" />
+      </Transcription>
+      <Transcription Original="ś" Replacement="ɕ">
+        <Exception Replacement="ʑ" Suffix="[^aąeęioóuy]*\s?(?:[\sbdgźż]|dz)(?:rz|w)?[aąeęioóuy]" />
+      </Transcription>
+      <Transcription Original="s" Replacement="s">
+        <Exception Replacement="z" Suffix="[^aąeęioóuy]*\s?(?:[\sbdgźż]|dz)(?:rz|w)?[aąeęioóuy]" />
+      </Transcription>
+      <Transcription Original="sz" Replacement="ʂ">
+        <Exception Replacement="ʐ" Suffix="[^aąeęioóuy]*\s?(?:[\sbdgźż]|dz)(?:rz|w)?[aąeęioóuy]" />
+      </Transcription>
+      <Transcription Original="t" Replacement="t">
+        <Exception Replacement="d" Suffix="[^aąeęioóuy]*\s?(?:[\sbdgźż]|dz)(?:rz|w)?[aąeęioóuy]" />
+      </Transcription>
+      <!-- Sonorants -->
+      <Transcription Original="j" Replacement="j" />
+      <Transcription Original="l" Replacement="l" />
+      <Transcription Original="m" Replacement="m" />
+      <Transcription Original="ni" Replacement="ɲ" Suffix="[aąeęioóuy]" />
+      <Transcription Original="n" Replacement="n" />
+      <Transcription Original="ń" Replacement="ɲ" />
+      <Transcription Original="n" Replacement="ŋ" />
+      <Transcription Original="r" Replacement="r" />
+      <Transcription Original="ł" Replacement="w" />
+    </IPA>
+  </Language>
+  <Language Name="Russian" ISO="ru" Native="Русский">
+    <Romanization Name="Scholarly">
+      <Transliteration Original="а" Replacement="a" />
+      <Transliteration Original="б" Replacement="b" />
+      <Transliteration Original="в" Replacement="v" />
+      <Transliteration Original="г" Replacement="g" />
+      <Transliteration Original="д" Replacement="d" />
+      <Transliteration Original="е" Replacement="e" />
+      <Transliteration Original="ё" Replacement="ë" />
+      <Transliteration Original="ж" Replacement="ž" />
+      <Transliteration Original="з" Replacement="z" />
+      <Transliteration Original="и" Replacement="i" />
+      <Transliteration Original="й" Replacement="j" />
+      <Transliteration Original="к" Replacement="k" />
+      <Transliteration Original="л" Replacement="l" />
+      <Transliteration Original="м" Replacement="m" />
+      <Transliteration Original="н" Replacement="n" />
+      <Transliteration Original="о" Replacement="o" />
+      <Transliteration Original="п" Replacement="p" />
+      <Transliteration Original="р" Replacement="r" />
+      <Transliteration Original="с" Replacement="s" />
+      <Transliteration Original="т" Replacement="t" />
+      <Transliteration Original="у" Replacement="u" />
+      <Transliteration Original="ф" Replacement="f" />
+      <Transliteration Original="х" Replacement="x" />
+      <Transliteration Original="ц" Replacement="c" />
+      <Transliteration Original="ч" Replacement="č" />
+      <Transliteration Original="ш" Replacement="š" />
+      <Transliteration Original="щ" Replacement="šč" />
+      <Transliteration Original="ъ" Replacement="ʺ" />
+      <Transliteration Original="ы" Replacement="y" />
+      <Transliteration Original="ь" Replacement="ʹ" />
+      <Transliteration Original="э" Replacement="è" />
+      <Transliteration Original="ю" Replacement="ju" />
+      <Transliteration Original="я" Replacement="ja" />
+    </Romanization>
+    <Romanization Name="ISO 9">
+      <Transliteration Original="а" Replacement="a" />
+      <Transliteration Original="б" Replacement="b" />
+      <Transliteration Original="в" Replacement="v" />
+      <Transliteration Original="г" Replacement="g" />
+      <Transliteration Original="д" Replacement="d" />
+      <Transliteration Original="е" Replacement="e" />
+      <Transliteration Original="ё" Replacement="ë" />
+      <Transliteration Original="ж" Replacement="ž" />
+      <Transliteration Original="з" Replacement="z" />
+      <Transliteration Original="и" Replacement="i" />
+      <Transliteration Original="й" Replacement="j" />
+      <Transliteration Original="к" Replacement="k" />
+      <Transliteration Original="л" Replacement="l" />
+      <Transliteration Original="м" Replacement="m" />
+      <Transliteration Original="н" Replacement="n" />
+      <Transliteration Original="о" Replacement="o" />
+      <Transliteration Original="п" Replacement="p" />
+      <Transliteration Original="р" Replacement="r" />
+      <Transliteration Original="с" Replacement="s" />
+      <Transliteration Original="т" Replacement="t" />
+      <Transliteration Original="у" Replacement="u" />
+      <Transliteration Original="ф" Replacement="f" />
+      <Transliteration Original="х" Replacement="ch" />
+      <Transliteration Original="ц" Replacement="c" />
+      <Transliteration Original="ч" Replacement="č" />
+      <Transliteration Original="ш" Replacement="š" />
+      <Transliteration Original="щ" Replacement="šč" />
+      <Transliteration Original="ъ" Replacement="ʺ" />
+      <Transliteration Original="ы" Replacement="y" />
+      <Transliteration Original="ь" Replacement="ʹ" />
+      <Transliteration Original="э" Replacement="ė" />
+      <Transliteration Original="ю" Replacement="ju" />
+      <Transliteration Original="я" Replacement="ja" />
+    </Romanization>
+    <Romanization Name="GOST">
+      <Transliteration Original="а" Replacement="a" />
+      <Transliteration Original="б" Replacement="b" />
+      <Transliteration Original="в" Replacement="v" />
+      <Transliteration Original="г" Replacement="g" />
+      <Transliteration Original="д" Replacement="d" />
+      <Transliteration Original="е" Replacement="e" />
+      <Transliteration Original="ё" Replacement="yo" />
+      <Transliteration Original="ж" Replacement="zh" />
+      <Transliteration Original="з" Replacement="z" />
+      <Transliteration Original="и" Replacement="i" />
+      <Transliteration Original="й" Replacement="j" />
+      <Transliteration Original="к" Replacement="k" />
+      <Transliteration Original="л" Replacement="l" />
+      <Transliteration Original="м" Replacement="m" />
+      <Transliteration Original="н" Replacement="n" />
+      <Transliteration Original="о" Replacement="o" />
+      <Transliteration Original="п" Replacement="p" />
+      <Transliteration Original="р" Replacement="r" />
+      <Transliteration Original="с" Replacement="s" />
+      <Transliteration Original="т" Replacement="t" />
+      <Transliteration Original="у" Replacement="u" />
+      <Transliteration Original="ф" Replacement="f" />
+      <Transliteration Original="х" Replacement="x" />
+      <Transliteration Original="ц" Replacement="cz" >
+        <Exception Replacement="c" Suffix="[еёийыюя]" />
+      </Transliteration>
+      <Transliteration Original="ч" Replacement="ch" />
+      <Transliteration Original="ш" Replacement="sh" />
+      <Transliteration Original="щ" Replacement="shh" />
+      <Transliteration Original="ъ" Replacement="ʺ" />
+      <Transliteration Original="ы" Replacement="y'" />
+      <Transliteration Original="ь" Replacement="ʹ" />
+      <Transliteration Original="э" Replacement="eh" />
+      <Transliteration Original="ю" Replacement="yu" />
+      <Transliteration Original="я" Replacement="ya" />
+    </Romanization>
+    <Romanization Name="ALA-LC">
+      <Transliteration Original="а" Replacement="a" />
+      <Transliteration Original="б" Replacement="b" />
+      <Transliteration Original="в" Replacement="v" />
+      <Transliteration Original="г" Replacement="g" />
+      <Transliteration Original="д" Replacement="d" />
+      <Transliteration Original="е" Replacement="e" />
+      <Transliteration Original="ё" Replacement="ë" />
+      <Transliteration Original="ж" Replacement="zh" />
+      <Transliteration Original="з" Replacement="z" />
+      <Transliteration Original="и" Replacement="i" />
+      <Transliteration Original="й" Replacement="ĭ" />
+      <Transliteration Original="к" Replacement="k" />
+      <Transliteration Original="л" Replacement="l" />
+      <Transliteration Original="м" Replacement="m" />
+      <Transliteration Original="н" Replacement="n" />
+      <Transliteration Original="о" Replacement="o" />
+      <Transliteration Original="п" Replacement="p" />
+      <Transliteration Original="р" Replacement="r" />
+      <Transliteration Original="с" Replacement="s" />
+      <Transliteration Original="т" Replacement="t" />
+      <Transliteration Original="у" Replacement="u" />
+      <Transliteration Original="ф" Replacement="f" />
+      <Transliteration Original="х" Replacement="kh" />
+      <Transliteration Original="ц" Replacement="ts" />
+      <Transliteration Original="ч" Replacement="ch" />
+      <Transliteration Original="ш" Replacement="sh" />
+      <Transliteration Original="щ" Replacement="shch" />
+      <Transliteration Original="ъ" Replacement="ʺ">
+        <Exception Replacement="" Suffix="[^абвгдеёжзийклмнопрстуфхцчшщъыьэю]" />
+      </Transliteration>
+      <Transliteration Original="ы" Replacement="y" />
+      <Transliteration Original="ь" Replacement="ʹ" />
+      <Transliteration Original="э" Replacement="ė" />
+      <Transliteration Original="ю" Replacement="iu" />
+      <Transliteration Original="я" Replacement="ia" />
+    </Romanization>
+    <IPA>
+      <Transcription Original="a" Replacement="a" />
+      <Transcription Original="b" Replacement="b" />
+      <Transcription Original="v" Replacement="v" />
+      <Transcription Original="g" Replacement="ɡ" />
+      <Transcription Original="d" Replacement="d" />
+      <Transcription Original="e" Replacement="je" />
+      <Transcription Original="ë|yo" Replacement="jo" />
+      <Transcription Original="ž|zh" Replacement="ʐ" />
+      <Transcription Original="z" Replacement="z" />
+      <Transcription Original="i" Replacement="i" />
+      <Transcription Original="[ĭj]" Replacement="j" />
+      <Transcription Original="k" Replacement="k" />
+      <Transcription Original="l" Replacement="l" />
+      <Transcription Original="m" Replacement="m" />
+      <Transcription Original="n" Replacement="n" />
+      <Transcription Original="o" Replacement="o" />
+      <Transcription Original="p" Replacement="p" />
+      <Transcription Original="r" Replacement="r" />
+      <Transcription Original="s" Replacement="s" />
+      <Transcription Original="t" Replacement="t" />
+      <Transcription Original="u" Replacement="u" />
+      <Transcription Original="f" Replacement="f" />
+      <Transcription Original="[hx]|[ck]h" Replacement="x" />
+      <Transcription Original="č|ch" Replacement="tɕ" />
+      <Transcription Original="cz?|ts" Replacement="ts" />
+      <Transcription Original="š|sh" Replacement="ʂ" />
+      <Transcription Original="šč|shc?h" Replacement="ɕː" />
+      <Transcription Original="ʺ" Replacement="" />
+      <Transcription Original="y\'" Replacement="ɨ" />
+      <Transcription Original="ʹ" Replacement="ʲ" />
+      <Transcription Original="[èė]|eh" Replacement="e" />
+      <Transcription Original="[ijy]u" Replacement="ju" />
+      <Transcription Original="[ijy]a" Replacement="ja" />
+    </IPA>
+  </Language>
+</Languages>

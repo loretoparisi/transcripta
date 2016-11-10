@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Letters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Accents.xsd">
+  <Letter Name="a">
+    <Accent Old="a`" New="à" />
+    <Accent Old="a''" New="á" />
+    <Accent Old="a^" New="â" />
+    <Accent Old="a~" New="ã" />
+    <Accent Old="a:" New="ä" />
+    <Accent Old="a*" New="å" />
+    <Accent Old="a@" New="æ" />
+    <Accent Old="a_" New="ā" />
+    <Accent Old="a,," New="ą" />
+  </Letter>
+  <Letter Name="c">
+    <Accent Old="c,," New="ç" />
+    <Accent Old="c^" New="ĉ" />
+    <Accent Old="c''" New="ć" />
+  </Letter>
+  <Letter Name="d">
+    <Accent Old="d/" New="ð" />
+  </Letter>
+  <Letter Name="e">
+    <Accent Old="e`" New="è" />
+    <Accent Old="e''" New="é" />
+    <Accent Old="e^" New="ê" />
+    <Accent Old="e:" New="ë" />
+    <Accent Old="e_" New="ē" />
+    <Accent Old="e,," New="ę" />
+  </Letter>
+  <Letter Name="i">
+    <Accent Old="i`" New="ì" />
+    <Accent Old="i''" New="í" />
+    <Accent Old="i^" New="î" />
+    <Accent Old="i~" New="ĩ" />
+    <Accent Old="i:" New="ï" />
+    <Accent Old="i_" New="ī" />
+  </Letter>
+  <Letter Name="l">
+    <Accent Old="l/" New="ł" />
+  </Letter>
+  <Letter Name="n">
+    <Accent Old="n~" New="ñ" />
+    <Accent Old="n''" New="ń" />
+  </Letter>
+  <Letter Name="o">
+    <Accent Old="o`" New="ò" />
+    <Accent Old="o''" New="ó" />
+    <Accent Old="o^" New="ô" />
+    <Accent Old="o~" New="õ" />
+    <Accent Old="o:" New="ö" />
+    <Accent Old="o/" New="ø" />
+    <Accent Old="o@" New="œ" />
+    <Accent Old="o_" New="ō" />
+  </Letter>
+  <Letter Name="s">
+    <Accent Old="s&amp;" New="ß" />
+    <Accent Old="s,," New="ş" />
+    <Accent Old="s^" New="ŝ" />
+    <Accent Old="s''" New="ś" />
+  </Letter>
+  <Letter Name="t">
+    <Accent Old="t/" New="þ" />
+    <Accent Old="t,," New="ţ" />
+  </Letter>
+  <Letter Name="u">
+    <Accent Old="u`" New="ù" />
+    <Accent Old="u''" New="ú" />
+    <Accent Old="u^" New="û" />
+    <Accent Old="u~" New="ũ" />
+    <Accent Old="u:" New="ü" />
+    <Accent Old="u_" New="ū" />
+  </Letter>
+  <Letter Name="y">
+    <Accent Old="y:" New="ÿ" />
+  </Letter>
+  <Letter Name="z">
+    <Accent Old="z^" New="ẑ" />
+    <Accent Old="z''" New="ź" />
+    <Accent Old="z.." New="ż" />
+  </Letter>
+  <Letter Name="?">
+    <Accent Old="??" New="¡¿" />
+  </Letter>
+  <Letter Name="!">
+    <Accent Old="!!" New="¡" />
+  </Letter>
+</Letters>

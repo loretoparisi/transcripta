@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:annotation>
+    <xs:appinfo>
+      Transcripa Accents
+    </xs:appinfo>
+    <xs:documentation>
+      Copyright 2011 Bryan McKelvey, MIT License
+    </xs:documentation>
+  </xs:annotation>
+  
+  <xs:element name="Letters">
+    <xs:annotation>
+      <xs:documentation>
+        A container element for all the letters that will be replaced by accented or other variants, for
+        ease of use when typing using a standard keyboard and IME.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Letter" maxOccurs="unbounded">
+          <xs:annotation>
+            <xs:documentation>
+              A container for all the accents that might be applied to a single letter.
+            </xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Accent" maxOccurs="unbounded">
+                <xs:annotation>
+                  <xs:documentation>
+                    The container for the rules in identifying a string of characters that should be converted into
+                    an accented or otherwise modified character.
+                  </xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:attribute name="Old" type="xs:string" use="required">
+                    <xs:annotation>
+                      <xs:documentation>
+                        The old string of characters to be replaced.
+                      </xs:documentation>
+                    </xs:annotation>
+                  </xs:attribute>
+                  <xs:attribute name="New" type="xs:string" use="required">
+                    <xs:annotation>
+                      <xs:documentation>
+                        The new character or string of characters with which to replace the old string.
+                      </xs:documentation>
+                    </xs:annotation>
+                  </xs:attribute>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="Name" type="xs:string" use="required">
+              <xs:annotation>
+                <xs:documentation>
+                  The name of the letter. Generally, this should be a letter you can type using a standard keyboard.
+                </xs:documentation>
+              </xs:annotation>
+            </xs:attribute>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

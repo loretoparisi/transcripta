@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xrml="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <assemblyIdentity name="transcripa.application" version="0.7.5.1" publicKeyToken="1a77fa37d0ddb664" language="neutral" processorArchitecture="x86" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <description asmv2:publisher="Microsoft" asmv2:product="transcripa" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <deployment install="true" mapFileExtensions="true">
+    <subscription>
+      <update>
+        <expiration maximumAge="0" unit="days" />
+      </update>
+    </subscription>
+    <deploymentProvider codebase="http://transcripa.googlecode.com/hg/publish/transcripa.application" />
+  </deployment>
+  <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
+    <framework targetVersion="4.0" profile="Client" supportedRuntime="4.0.30319" />
+    <framework targetVersion="4.0" profile="Full" supportedRuntime="4.0.30319" />
+  </compatibleFrameworks>
+  <dependency>
+    <dependentAssembly dependencyType="install" codebase="Application Files\transcripa_0_7_5_1\transcripa.exe.manifest" size="9182">
+      <assemblyIdentity name="transcripa.exe" version="0.7.5.1" publicKeyToken="1a77fa37d0ddb664" language="neutral" processorArchitecture="x86" type="win32" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>9IR7A4FamWXw/CZmZ0gLR2xdWMw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=BRYAN-PC\Bryan" issuerKeyHash="c7fb7fda8d52e36ea10685426fae07785c2be40e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>CihAJD2u39Z+SMSfJj/68DGVorc=</DigestValue></Reference></SignedInfo><SignatureValue>P1IztUdsPkiVReZasvF+8ZpIluMComR9QD3gpSRqMcg1VEs0BRLMHIIkN+M6I7/Ik+V1aasAFEZQIAFYsxO/kq8sjh0x+z/b5b6VIczFfAfxQWP4VuUheD0sSvP1i3HtZM/6cZnizY0FMqPUbM5SXyOuTevr8cCxeTOOW79xJyk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>mPcXEdG1MoAhwmPhYIA9u4NaXNNFLYct8Vx8t66+jVZfngKuYDqube5EgodSEogCXzgJi6pPWITl8kA/yXwB4E1ld5pts6r2ZXndKqp6YvWXvJav11pFgY5+KJxkBjrnJw/ZtaL/ZsHWxm2BaKAZsGR16hIszMrmGOuxVoQmeg0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b7a29531f0fa3f269fc4487ed6dfae3d2440280a" Description="" Url=""><as:assemblyIdentity name="transcripa.application" version="0.7.5.1" publicKeyToken="1a77fa37d0ddb664" language="neutral" processorArchitecture="x86" xmlns="urn:schemas-microsoft-com:asm.v1" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BRYAN-PC\Bryan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>gb42hJWS2tRt3YJ+MIAhbBUksBE=</DigestValue></Reference></SignedInfo><SignatureValue>Bw8ro8MoYisjC4rk7ZAVolDUmWmg7ZgyC3SUesYR6e74nBVtTqbBgzM7H67glAy2qcV/Cs29JdzlsQI4aa7iTuUxkemXRqfOjMjNCS4N5+F97DqrwKoqBNLglQu0Q1YfV6anWEBH3cTZ/O6kmTmaL7nvw1jGL8X/Zc/sgGSLnXc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>mPcXEdG1MoAhwmPhYIA9u4NaXNNFLYct8Vx8t66+jVZfngKuYDqube5EgodSEogCXzgJi6pPWITl8kA/yXwB4E1ld5pts6r2ZXndKqp6YvWXvJav11pFgY5+KJxkBjrnJw/ZtaL/ZsHWxm2BaKAZsGR16hIszMrmGOuxVoQmeg0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQEcTC/BYsZLpJyPchPOiPvjANBgkqhkiG9w0BAQUFADAnMSUwIwYDVQQDHhwAQgBSAFkAQQBOAC0AUABDAFwAQgByAHkAYQBuMB4XDTExMDUyNjEyMTUxOFoXDTEyMDUyNTE4MTUxOFowJzElMCMGA1UEAx4cAEIAUgBZAEEATgAtAFAAQwBcAEIAcgB5AGEAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAmPcXEdG1MoAhwmPhYIA9u4NaXNNFLYct8Vx8t66+jVZfngKuYDqube5EgodSEogCXzgJi6pPWITl8kA/yXwB4E1ld5pts6r2ZXndKqp6YvWXvJav11pFgY5+KJxkBjrnJw/ZtaL/ZsHWxm2BaKAZsGR16hIszMrmGOuxVoQmeg0CAwEAATANBgkqhkiG9w0BAQUFAAOBgQCKRARWbPwsKlNoLi8yh0LwY32CmoDJWq33loMiRkwY/UKKUJ7gzVl47lwE1C6FFAv24XgSSOp8ee2ASDYxWPU8hC35D3S4AmTd7mPOzqJrFYtCafZOjclyT4QWz/3HwxXNc72jOMBjlzhxKKL+vKX3cQ0nDqXUHQElOjlwGvZMYw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

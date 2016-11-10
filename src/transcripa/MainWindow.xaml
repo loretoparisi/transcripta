@@ -1,0 +1,42 @@
+﻿<Window x:Class="transcripa.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="transcripa" Height="525" Width="640" Icon="/transcripa;component/Images/schwa.ico"
+        FocusManager.FocusedElement="{Binding ElementName=textBoxInput}" Closing="Window_Closing" KeyDown="Window_KeyDown">
+    <Window.Resources>
+        <Style TargetType="{x:Type Label}">
+            <Setter Property="HorizontalAlignment" Value="Left" />
+            <Setter Property="Margin" Value="3,3,3,6" />
+        </Style>
+        <Style TargetType="{x:Type ComboBox}">
+            <Setter Property="HorizontalAlignment" Value="Left" />
+            <Setter Property="Margin" Value="3,6,24,6" />
+        </Style>
+        <Style TargetType="{x:Type CheckBox}">
+            <Setter Property="HorizontalAlignment" Value="Right" />
+            <Setter Property="Margin" Value="6,3,9,3" />
+        </Style>
+        <Style TargetType="{x:Type TextBox}">
+            <Setter Property="Margin" Value="6,3,6,3" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+        </Style>
+    </Window.Resources>
+    <Grid Height="Auto">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="{Binding ElementName=comboBoxLanguage,Path=Height}" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <DockPanel Grid.Row="0" VerticalAlignment="Center">
+            <Label Name="labelLanguage" Content="Language:" />
+            <ComboBox Name="comboBoxLanguage" SelectionChanged="comboBoxLanguage_SelectionChanged" />
+            <Label Name="labelRomanization" Content="Romanization:" />
+            <ComboBox Name="comboBoxRomanization" SelectionChanged="comboBoxRomanization_SelectionChanged" />
+            <CheckBox Name="hideErrorsCheckBox" Checked="hideErrorsCheckBox_Checked"  Content="Hide validation errors" VerticalAlignment="Center" />
+        </DockPanel>
+        <TextBox Grid.Row="1" Name="textBoxInput"  KeyUp="textBoxInput_KeyUp" AcceptsReturn="True" />
+        <TextBox Grid.Row="2" Name="textBoxRomanized" IsReadOnly="True" />
+        <TextBox Grid.Row="3" Name="textBoxOutput" IsReadOnly="True" />
+    </Grid>
+</Window>
